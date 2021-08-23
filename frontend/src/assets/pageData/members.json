@@ -109,7 +109,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 0px"
         },
@@ -193,7 +193,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -10px"
         },
@@ -330,7 +330,7 @@
             "team": [
                 "business"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -405,7 +405,7 @@
             "team": [
                 "electrical"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -497,7 +497,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 0px"
         },
@@ -594,7 +594,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -20px"
         },

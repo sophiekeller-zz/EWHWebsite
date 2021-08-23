@@ -94,7 +94,6 @@ export default class Project2 extends React.Component {
             <div className="project-title">
               {data.title}
             </div>
-            <div className="project-year">{data.year_completed}</div>
           </div>
 
         </div>

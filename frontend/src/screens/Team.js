@@ -120,6 +120,7 @@ export default class Team extends React.Component {
                   );
                 })}
               </div>
+
             </div>
           </div>
         </div>

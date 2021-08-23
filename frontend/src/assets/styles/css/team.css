@@ -40,6 +40,7 @@
 }
 .team-content {
   display: flex;
+  /* justify-content: space-between */
 }
 
 .team-content-m {
@@ -205,6 +206,7 @@
   font-weight: bold;
   width: 180px;
   margin-bottom: 20px;
+  text-align: right
 }
 .filter-button-selected {
   font-weight: bold;
