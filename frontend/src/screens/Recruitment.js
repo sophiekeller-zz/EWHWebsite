@@ -37,7 +37,7 @@ export default class Recruitment extends React.Component {
         <div className="recruitment-container">
           <div className="contact-title">Recruitment</div>
           <div className={recruitmentParagraph}>
-            We are excited to recruit new members to our team this spring. Join us
+            We are excited to recruit new members to our team this fall. Join us
             at our information sessions to learn more! Apply
             <a className="freshman-form" href="https://cornell.ca1.qualtrics.com/jfe/form/SV_bHhnguSVxoPmwCy">
               here
