@@ -44,9 +44,6 @@ export default class Recruitment extends React.Component {
             </a>.
           </div>
           <div className={recruitmentParagraph}>
-            Timeline coming soon!
-          </div>
-          <div className={recruitmentParagraph}>
           </div>
           {/* <div className={recruitmentParagraph}>
             <a className="freshman-form" href="https://cornell.zoom.us/j/91897243616?pwd=bnRTRk5WOHFoYk5obzVNVlNkbTUrUT09">
@@ -59,7 +56,9 @@ export default class Recruitment extends React.Component {
             </a>
           </div> */}
 
-          {/* <img className="timeline-photo" alt="timeline" src={images.timeline} /> */}
+          <img className="timeline-photo" alt="timeline" src={images.timeline1} />
+          <img className="timeline-photo" alt="timeline" src={images.timeline2} />
+          <div />
           <div className="faqs-container">
             <div className={recruitmentTitle}>Frequently Asked Questions</div>
             <div className="faq-dropdowns-container">
