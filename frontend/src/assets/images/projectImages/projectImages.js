@@ -20,5 +20,6 @@ export default {
   jaundice: require("./jaundice.png"),
   mycotoxins: require("./mycotoxins.png"),
   "infusion-pump": require("./reli.png"),
-  "autologous-transfusion": require("./transfusion.png")
+  "autologous-transfusion": require("./transfusion.png"),
+  aurolab: require("./eyecare.jpg")
 };

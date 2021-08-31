@@ -21,10 +21,12 @@
                 "software"
             ],
             "info": "This newly formed subteam is developing an automated web-scraper to collect job and funding information from target sites such as ThinkWell, UNICEF, WHO, Bill and Melinda Gates Foundation, etc.",
-            "isActive": true,
+            "info_long": "Over the course of a year, one of two software subteams collaborated with Management Sciences for Health (MSH), a global, advisory non-profit organization that strengthens health systems. Specifically, they joined MSH under Dr. Christian Suharlim, a Senior Technical Advisor for Global Health Systems Innovation and the Director of Public Affairs for the Immunization Economics Community of Practice. \n During their internship with MSH, the team focused on building an automated opportunities dashboard that utilized web-scraping technologies to create a platform for health economists and immunization professionals to collaborate. This dashboard aims to consolidate job and funding opportunities from major ImmunizationEconomics.org partners and sponsors including but not limited to the Harvard T.H. Chan School of Public Health, Johns Hopkins, and the Bill and Melinda Gates Foundation. In addition, the team wrote and sought publication for a commentary centered around the global health labor force movement, especially within the era of COVID-19.",
+            "isActive": false,
             "collaborators": [
-                "Management Sciences for Health Collaboration"
-            ]
+                "msh"
+            ],
+            "year_completed": 2021
         },
         {
             "id": "calmer",
@@ -245,6 +247,20 @@
             "info_long": "Every year, millions of women world-wide suffer from excessive blood loss in cases of ruptured ectopic pregnancies. For instance, hemorrhaging is the leading cause of maternal mortality in Sub-Saharan Africa, with 87% due to ectopic pregnancy ruptures. Women can often lose up to half their blood volume (developing acute anemia) and are usually in desperate need of transfusion. However, in developing nations, there are often insufficient supplies of donor blood due to high frequency of diseases such as HIV/AIDS. \n Design Innovations for Infants and Mothers Everywhere (DIIME) has attempted to address this problem by developing a device, known as the Hemafuse, which transfers and filters blood using a manual hand-pump method, and then re-transfuses the clean blood into patients. Although this device is simple, clean, and reusable, it fails to make the process less labor intensive, nor does it reduce crowding and chaos in the surgical area. \n The Autologous Transfusion System designed by EWH Cornell sought to create a simple handheld, reusable auto-transfusion system that addressed several shortcomings of the current Hemafuse device. The proposed transfusion system would be inserted into the patient’s abdomen during surgery and sucked out by a foot pump powered by a hand crank. The foot pump draws the blood through a sterile IV bag with anticoagulant tubing, and anticoagulant is added  to remove and prevent clots, ensuring safe blood storage before transfusion. This blood transfusion process not only stores blood in a sterile environment with anticoagulants but also returns the blood to a patient in a closed loop system. This system, therefore, reduced the risk of transmitting airborne infections and transfusing clots into the patient's body. Moreover, the transfusion system was designed to be a distance away from the operating table to clear surgical space, so the nurse isn’t clumsily extracting and pumping blood out of wounds while near the physicians who are attempting to operate. The designs were provided for resource limited clinics in sub-Saharan Africa as an option to achieve fewer patient complications, lower procedure costs, and decreased mortality rates related to pregnancy.",
             "collaborators": [],
             "year_completed": 2015
+        },
+        {
+            "id": "aurolab",
+            "title": "Aurolab Collaboration",
+            "subteams": [
+                "integrative-design",
+                "software"
+            ],
+            "isActive": true,
+            "info": "This multi-team project seeks to build a data collection app that will ultimately serve a Ml model powering glasses for low vision patients that enables them to see through real time image detection. This is in collaboration with the Avarind Eye Care System in India that manufactures specialty eye care equipment. The team works directly with a Cornell professor and PhD student who act as a medium between EWH and the Aurolab company. ",
+            "collaborators": [
+                "aurolab",
+                "aecs"
+            ]
         }
     ]
 }

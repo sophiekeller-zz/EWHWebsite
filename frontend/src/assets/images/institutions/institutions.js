@@ -7,5 +7,8 @@ export default {
   forefront: require("./forefront.png"),
   medlife: require("./medlife.png"),
   cayuga: require("./cmc.jpg"),
-  path: require("./path.png")
+  path: require("./path.png"),
+  msh: require('./msh.png'),
+  aurolab: require("./aurolab.png"),
+  aecs: require("./aecs.png")
 };

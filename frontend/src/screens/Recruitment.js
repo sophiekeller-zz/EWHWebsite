@@ -45,12 +45,12 @@ export default class Recruitment extends React.Component {
           </div>
           <div className={recruitmentParagraph}>
           </div>
-          {/* <div className={recruitmentParagraph}>
-            <a className="freshman-form" href="https://cornell.zoom.us/j/91897243616?pwd=bnRTRk5WOHFoYk5obzVNVlNkbTUrUT09">
-              Info Session #1: 2/15 5-6pm EST Password: EWH
+          <div className={recruitmentParagraph}>
+            <a className="freshman-form" href="https://cornell.zoom.us/j/94303382628?pwd=d0Zib0JWVEJLMUtQdWxnQnZiSlNVUT09">
+              Info Session #1: 9/1 5-6pm EST Password: EWH
             </a>
           </div>
-          <div className={recruitmentParagraph}>
+          {/* <div className={recruitmentParagraph}>
             <a className="freshman-form" href="https://cornell.zoom.us/j/91897243616?pwd=bnRTRk5WOHFoYk5obzVNVlNkbTUrUT09">
               Info Session #2: 2/18 5-6pm EST Password: EWH
             </a>

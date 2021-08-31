@@ -26,8 +26,17 @@ To add a new photo or change the current profile picture for someone
 
 1. Open frontend/src/assets/pageData/projects.json.
 2. If you're adding, add a new entry that matches the format of the previous entries. Otherwise, edit the entry that corresponds to the project you are editing.
-3. Make sure the formatting matches those of the other entries in the file. For example, `isActiveshould` be `true` or `false` with no quotes. `id`, `title`, and `info` should have quotes around them. `subteams` and `collaborators` should have square brackets around them and be separated by commas.
+3. Make sure the formatting matches those of the other entries in the file. For example, `isActive` should be `true` or `false` with no quotes. `id`, `title`, and `info` should have quotes around them. `subteams` and `collaborators` should have square brackets around them and be separated by commas.
 4. If this is a project that doesn't have collaborators, enter an empty list (`[]`) for the collaborators entry. Otherwise, make sure that the collaborator name in your list is listed in frontend/src/assets/images/institutions/institutions.js. If these names don't match, this image won't be rendered correctly. To add a new collaborator photo, see steps below.
+5. Make sure that if you are adding a new project, you also add that project to the team member's jsons who are working on that project in frontend/src/assets/pageData/teams.json. The project name in the list of their projects must match the project id in projects.json.
+
+### Changing a Current Project to a Past Project
+
+1. Open frontend/src/assets/pageData/projects.json.
+2. Find the desired project's json entry and change the `isActive` field to `false`.
+3. Add an `info_long` entry for the project. This is necessary for the read more section of the project. This should be in the past tense and it is often easiest to find some sort of final report/ESR on the project and pull from there. If you're unsure what this should look like, look at the read more sections of other past projects. If you wish for the long form description to have multiple paragraphs, separate them by the newline (`\n`) character within the `info_long` string.
+4. To add a new collaborator photo, see steps below.
+
 
 #### Add Collaborator Photo
 
