@@ -250,7 +250,7 @@
         },
         {
             "id": "aurolab",
-            "title": "Aurolab Collaboration",
+            "title": "Aurolab Assistive Glasses",
             "subteams": [
                 "integrative-design",
                 "software"
@@ -261,6 +261,16 @@
                 "aurolab",
                 "aecs"
             ]
+        },
+        {
+            "id": "first-opinion",
+            "title": "First Opinion",
+            "subteams": [
+                "business"
+            ],
+            "isActive": true,
+            "info": "This project is a collaboration with an early phase start-up called First Opinion that seeks to provide a low-cost resource for accurate medical information in India. This is the business team’s first official collaboration in a while, featuring marketing, biz dev, and web dev services. ",
+            "collaborators": []
         }
     ]
 }

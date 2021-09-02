@@ -19,7 +19,9 @@
             "year": 2023,
             "major": "Biological Engineering",
             "projects": [
-                "kijenzi"
+                "kijenzi",
+                "calmer",
+                "aurolab"
             ],
             "team": [
                 "integrative-design"
@@ -33,10 +35,10 @@
             "major": "Operations Research",
             "projects": [
                 "indago",
-                "msh"
+                "msh",
+                "first-opinion"
             ],
             "team": [
-                "software",
                 "business"
             ],
             "isAlumni": false,
@@ -55,7 +57,7 @@
             "team": [
                 "integrative-design"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -63,7 +65,8 @@
             "year": 2023,
             "major": "Computer Science",
             "projects": [
-                "health-friend"
+                "health-friend",
+                "aurolab"
             ],
             "team": [
                 "software"
@@ -76,7 +79,8 @@
             "year": 2023,
             "major": "Computer Science and Psychology",
             "projects": [
-                "health-friend"
+                "health-friend",
+                "aurolab"
             ],
             "team": [
                 "software"
@@ -95,7 +99,7 @@
             "team": [
                 "electrical"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -119,19 +123,22 @@
             "major": "Global and Public Health Sciences",
             "projects": [
                 "indago",
-                "msh"
+                "msh",
+                "first-opinion"
             ],
             "team": [
-                "software"
+                "business"
             ],
             "isAlumni": false,
-            "isLead": true
+            "isLead": false
         },
         {
             "name": "Chris Tran",
             "year": 2023,
             "major": "Healthcare Policy",
-            "projects": [],
+            "projects": [
+                "first-opinion"
+            ],
             "team": [
                 "business"
             ],
@@ -146,7 +153,9 @@
             "projects": [
                 "kijenzi",
                 "incinerator",
-                "msh"
+                "msh",
+                "calmer",
+                "aurolab"
             ],
             "team": [
                 "integrative-design"
@@ -160,7 +169,9 @@
             "major": "Biological Sciences",
             "projects": [
                 "kijenzi",
-                "incinerator"
+                "incinerator",
+                "calmer",
+                "aurolab"
             ],
             "team": [
                 "integrative-design"
@@ -178,7 +189,7 @@
             "team": [
                 "electrical"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -187,10 +198,11 @@
             "major": "Information Science and Biology & Society",
             "projects": [
                 "indago",
-                "msh"
+                "msh",
+                "first-opinion"
             ],
             "team": [
-                "software"
+                "business"
             ],
             "isAlumni": false,
             "isLead": false
@@ -215,7 +227,8 @@
             "year": 2023,
             "major": "Computer Science",
             "projects": [
-                "tVNS"
+                "tVNS",
+                "invictus"
             ],
             "team": [
                 "electrical"
@@ -249,14 +262,16 @@
             "team": [
                 "integrative-design"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
             "name": "Jay Doshi",
             "year": 2024,
             "major": "Biology & Society",
-            "projects": [],
+            "projects": [
+                "first-opinion"
+            ],
             "team": [
                 "business"
             ],
@@ -274,7 +289,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -300,7 +315,7 @@
                 "msh"
             ],
             "team": [
-                "software"
+                "business"
             ],
             "isAlumni": false,
             "isLead": false,
@@ -311,7 +326,9 @@
             "year": 2023,
             "major": "Mechanical Engineering",
             "projects": [
-                "kijenzi"
+                "kijenzi",
+                "calmer",
+                "aurolab"
             ],
             "team": [
                 "integrative-design"
@@ -324,7 +341,9 @@
             "name": "Julia Xiong",
             "year": 2023,
             "major": "HBHS",
-            "projects": [],
+            "projects": [
+                "first-opinion"
+            ],
             "team": [
                 "business"
             ],
@@ -337,7 +356,8 @@
             "major": "Electrical & Computer Engineering",
             "projects": [
                 "grip-sensor",
-                "tvns"
+                "tvns",
+                "invictus"
             ],
             "team": [
                 "electrical"
@@ -363,7 +383,8 @@
             "year": 2022,
             "major": "Information Science",
             "projects": [
-                "health-friend"
+                "health-friend",
+                "aurolab"
             ],
             "team": [
                 "software"
@@ -384,7 +405,7 @@
             "team": [
                 "integrative-design"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 0px"
         },
@@ -400,7 +421,7 @@
             "team": [
                 "electrical"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -40px"
         },
@@ -415,7 +436,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 0px"
         },
@@ -438,7 +459,8 @@
             "major": "Computer Science",
             "projects": [
                 "tvns",
-                "grip-sensor"
+                "grip-sensor",
+                "invictus"
             ],
             "team": [
                 "electrical"
@@ -464,7 +486,9 @@
             "name": "Ryan Chan",
             "year": 2023,
             "major": "Electrical and Computer Engineering",
-            "projects": [],
+            "projects": [
+                "invictus"
+            ],
             "team": [
                 "electrical"
             ],
@@ -495,7 +519,7 @@
             "team": [
                 "electrical"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -50px"
         },
@@ -503,7 +527,10 @@
             "name": "Sarika Kannan",
             "year": 2023,
             "major": "Electrical and Computer Engineering",
-            "projects": [],
+            "projects": [
+                "tvns",
+                "invictus"
+            ],
             "team": [
                 "electrical"
             ],
@@ -515,7 +542,8 @@
             "year": 2023,
             "major": "Computer Science",
             "projects": [
-                "health-friend"
+                "health-friend",
+                "aurolab"
             ],
             "team": [
                 "software"
@@ -535,7 +563,7 @@
             "team": [
                 "integrative-design"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -571,7 +599,9 @@
             "name": "Sohni Uthra",
             "year": 2023,
             "major": "Computer Science",
-            "projects": [],
+            "projects": [
+                "first-opinion"
+            ],
             "team": [
                 "business"
             ],
@@ -584,7 +614,8 @@
             "year": 2022,
             "major": "Computer Science",
             "projects": [
-                "indago"
+                "indago",
+                "first-opinion"
             ],
             "team": [
                 "business"
@@ -602,7 +633,7 @@
             "team": [
                 "business"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -610,7 +641,8 @@
             "year": 2023,
             "major": "Computer Science",
             "projects": [
-                "health-friend"
+                "health-friend",
+                "aurolab"
             ],
             "team": [
                 "software"
@@ -623,7 +655,8 @@
             "year": 2023,
             "major": "Biology and Society",
             "projects": [
-                "indago"
+                "indago",
+                "first-opinion"
             ],
             "team": [
                 "business"
@@ -643,7 +676,7 @@
             "team": [
                 "integrative-design"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -40px"
         },
@@ -1287,6 +1320,34 @@
                 "integrative-design"
             ],
             "isAlumni": true,
+            "isLead": false
+        },
+        {
+            "name": "Nick Colaw",
+            "year": 2024,
+            "major": "",
+            "projects": [
+                "calmer",
+                "aurolab"
+            ],
+            "team": [
+                "integrative-design"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Justine Burke",
+            "year": 2024,
+            "major": "",
+            "projects": [
+                "calmer",
+                "aurolab"
+            ],
+            "team": [
+                "integrative-design"
+            ],
+            "isAlumni": false,
             "isLead": false
         }
     ]

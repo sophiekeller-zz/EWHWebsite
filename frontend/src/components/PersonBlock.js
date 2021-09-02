@@ -52,6 +52,8 @@ export default class PersonBlock extends React.Component {
       let title = "";
       let teams = person.team;
       for (let i = 0; i < teams.length; i++) {
+        console.log(i);
+        console.log(teamsData)
         title += teamsData[teams[i]].name + " & ";
       }
       title = title.substring(0, title.length - 3);

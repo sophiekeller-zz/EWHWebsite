@@ -60,6 +60,18 @@ export default class Team extends React.Component {
     this.setState({ filter: filter });
   }
 
+  sortByLastName(a, b) {
+    let first = a.name.split(' ')[1]
+    let second = b.name.split(' ')[1]
+    if (first < second) {
+      return -1
+    } else if (first = second) {
+      return 0
+    } else {
+      return 1
+    }
+  }
+
   /* renders team page */
   render() {
     let leads = "lead-blocks-container";
@@ -74,6 +86,7 @@ export default class Team extends React.Component {
       teamContent = "team-content-m";
       navbar = <MobileNavBar />;
     }
+    let sortedMembers = this.state.selected.sort(this.sortByLastName)
     return (
       <div className="home-container">
         {navbar}
@@ -114,7 +127,7 @@ export default class Team extends React.Component {
                     {teams[this.state.filter].description}{" "}
                   </div>
                 )}
-                {this.state.selected.map((person, index) => {
+                {sortedMembers.map((person, index) => {
                   return (
                     <PersonBlock mobile={this.props.mobile} data={person} />
                   );
