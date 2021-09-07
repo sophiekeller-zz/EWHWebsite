@@ -21,7 +21,7 @@
             "projects": [
                 "kijenzi",
                 "calmer",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "integrative-design"
@@ -66,7 +66,7 @@
             "major": "Computer Science",
             "projects": [
                 "health-friend",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "software"
@@ -80,7 +80,7 @@
             "major": "Computer Science and Psychology",
             "projects": [
                 "health-friend",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "software"
@@ -155,7 +155,7 @@
                 "incinerator",
                 "msh",
                 "calmer",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "integrative-design"
@@ -171,7 +171,7 @@
                 "kijenzi",
                 "incinerator",
                 "calmer",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "integrative-design"
@@ -328,7 +328,7 @@
             "projects": [
                 "kijenzi",
                 "calmer",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "integrative-design"
@@ -384,7 +384,7 @@
             "major": "Information Science",
             "projects": [
                 "health-friend",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "software"
@@ -543,7 +543,7 @@
             "major": "Computer Science",
             "projects": [
                 "health-friend",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "software"
@@ -642,7 +642,7 @@
             "major": "Computer Science",
             "projects": [
                 "health-friend",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "software"
@@ -1325,10 +1325,10 @@
         {
             "name": "Nick Colaw",
             "year": 2024,
-            "major": "Biological Engineering",
+            "major": "Biomedical Engineering",
             "projects": [
                 "calmer",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "integrative-design"
@@ -1339,10 +1339,10 @@
         {
             "name": "Justine Burke",
             "year": 2024,
-            "major": "Biological Engineering",
+            "major": "Biomedical Engineering",
             "projects": [
                 "calmer",
-                "aurolab"
+                "glasses"
             ],
             "team": [
                 "integrative-design"

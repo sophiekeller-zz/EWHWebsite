@@ -249,16 +249,16 @@
             "year_completed": 2015
         },
         {
-            "id": "aurolab",
-            "title": "Aurolab Assistive Glasses",
+            "id": "glasses",
+            "title": "Assistive Glasses",
             "subteams": [
                 "integrative-design",
                 "software"
             ],
             "isActive": true,
-            "info": "This multi-team project seeks to build a data collection app that will ultimately serve a Ml model powering glasses for low vision patients that enables them to see through real time image detection. This is in collaboration with the Avarind Eye Care System in India that manufactures specialty eye care equipment. The team works directly with a Cornell professor and PhD student who act as a medium between EWH and the Aurolab company. ",
+            "info": "This multi-team project seeks to build a data collection app that will ultimately serve a Ml model powering glasses for low vision patients that enables them to see through real time image detection. This is in collaboration with the Avarind Eye Care System in India that manufactures specialty eye care equipment. The team works directly with a Cornell professor and PhD student who act as a medium between EWH and the glasses company. ",
             "collaborators": [
-                "aurolab",
+                "glasses",
                 "aecs"
             ]
         },

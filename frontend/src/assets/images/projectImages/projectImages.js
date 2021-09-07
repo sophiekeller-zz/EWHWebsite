@@ -21,6 +21,6 @@ export default {
   mycotoxins: require("./mycotoxins.png"),
   "infusion-pump": require("./reli.png"),
   "autologous-transfusion": require("./transfusion.png"),
-  aurolab: require("./eyecare.jpg"),
+  glasses: require("./eyecare.jpg"),
   "first-opinion": require("./first-opinion.png")
 };
