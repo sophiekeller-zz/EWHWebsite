@@ -46,9 +46,9 @@ export default class Recruitment extends React.Component {
           <div className={recruitmentParagraph}>
           </div>
           <div className={recruitmentParagraph}>
-            {/* <a className="freshman-form" href="https://cornell.zoom.us/j/94303382628?pwd=d0Zib0JWVEJLMUtQdWxnQnZiSlNVUT09"> */}
-            Final Info Session: 9/28 5-6pm EST
-            {/* </a> */}
+            <a className="freshman-form">
+              Final Info Session: 9/28 5-6pm EST in Hollister 312
+            </a>
           </div>
           {/* <div className={recruitmentParagraph}>
             <a className="freshman-form" href="https://cornell.zoom.us/j/91897243616?pwd=bnRTRk5WOHFoYk5obzVNVlNkbTUrUT09">
