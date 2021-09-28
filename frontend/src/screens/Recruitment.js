@@ -46,16 +46,15 @@ export default class Recruitment extends React.Component {
           <div className={recruitmentParagraph}>
           </div>
           <div className={recruitmentParagraph}>
-            <a className="freshman-form">
-              Final Info Session: 9/28 5-6pm EST in Hollister 312
+            {/* <a className="freshman-form"> */}
+            <b>Final Info Session: 9/28 5-6pm EST in Hollister 312</b>
+            {/* </a> */}
+          </div>
+          <div className={recruitmentParagraph}>
+            <a className="freshman-form" href="https://cornell.zoom.us/j/92547459277?pwd=Q0VrUzVsL2E3Ym5pVk9wTlQrNlF2dz09">
+              <b>Click here to join through Zoom. Password: EWH</b>
             </a>
           </div>
-          {/* <div className={recruitmentParagraph}>
-            <a className="freshman-form" href="https://cornell.zoom.us/j/91897243616?pwd=bnRTRk5WOHFoYk5obzVNVlNkbTUrUT09">
-              Info Session #2: 2/18 5-6pm EST Password: EWH
-            </a>
-          </div> */}
-
           <img className="timeline-photo" alt="timeline" src={images.timeline1} />
           <img className="timeline-photo" alt="timeline" src={images.timeline2} />
           <div />
