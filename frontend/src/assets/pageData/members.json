@@ -379,6 +379,18 @@
             "isLead": false
         },
         {
+            "name": "Maya Devarajan",
+            "year": 2024,
+            "major": "Biomedical Engineering",
+            "projects": [],
+            "team": [
+                "integrative-design"
+            ],
+            "isAlumni": false,
+            "isLead": false,
+            "orientation": "0 0px"
+        },
+        {
             "name": "Michael Zhang",
             "year": 2022,
             "major": "Information Science",
@@ -481,6 +493,18 @@
             "isAlumni": false,
             "isLead": false,
             "orientation": "0 -50px"
+        },
+        {
+            "name": "Ruchitha Rajaghatta",
+            "year": 2024,
+            "major": "Computer Science",
+            "projects": [],
+            "team": [
+                "software"
+            ],
+            "isAlumni": false,
+            "isLead": false,
+            "orientation": "0 -15px"
         },
         {
             "name": "Ryan Chan",
@@ -619,6 +643,29 @@
             ],
             "team": [
                 "business"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Sripad Sureshbabu",
+            "year": 2024,
+            "major": "Biological Sciences",
+            "projects": [],
+            "team": [
+                "integrative-design"
+            ],
+            "isAlumni": false,
+            "isLead": false,
+            "orientation": "0 0px"
+        },
+        {
+            "name": "Stephanie Zhang",
+            "year": 2024,
+            "major": "Information Science",
+            "projects": [],
+            "team": [
+                "software"
             ],
             "isAlumni": false,
             "isLead": false
