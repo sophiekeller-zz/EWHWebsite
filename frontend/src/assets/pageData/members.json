@@ -45,6 +45,17 @@
             "isLead": false
         },
         {
+            "name": "Alyssa Yam",
+            "year": 2024,
+            "major": "Information Science",
+            "projects": [],
+            "team": [
+                "business"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
             "name": "Ana Elhom",
             "year": 2021,
             "major": "Biomedical Engineering",
@@ -145,6 +156,18 @@
             "isAlumni": false,
             "isLead": false,
             "orientation": "0 -20px"
+        },
+        {
+            "name": "Cindy Liu",
+            "year": 2023,
+            "major": "Operations Research",
+            "projects": [],
+            "team": [
+                "business"
+            ],
+            "isAlumni": false,
+            "isLead": false,
+            "orientation": "0 0px"
         },
         {
             "name": "Connie Hou",
@@ -453,6 +476,18 @@
             "orientation": "0 0px"
         },
         {
+            "name": "Nikitha Zachariah",
+            "year": 2024,
+            "major": "Health Care Policy",
+            "projects": [],
+            "team": [
+                "business"
+            ],
+            "isAlumni": false,
+            "isLead": false,
+            "orientation": "0 -20px"
+        },
+        {
             "name": "Paul Garell",
             "year": 2024,
             "major": "Biological Systems Engineering",
@@ -710,6 +745,18 @@
             ],
             "isAlumni": false,
             "isLead": true
+        },
+        {
+            "name": "Will Yuan",
+            "year": 2024,
+            "major": "Electrical Engineering",
+            "projects": [],
+            "team": [
+                "electrical"
+            ],
+            "isAlumni": false,
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Victoria Tan",

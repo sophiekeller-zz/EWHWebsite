@@ -1,6 +1,7 @@
 export default {
   alanli: require("./alanli.jpeg"),
   alisonlandry: require("./alisonlandry.jpg"),
+  alyssayam: require("./alyssayam.JPG"),
   anaelhom: require("./anaelhom.jpg"),
   annanguyen: require("./annanguyen.jpg"),
   anyaji: require("./anyaji.png"),
@@ -8,6 +9,7 @@ export default {
   catherinekwak: require("./catherinekwak.png"),
   chloehasund: require("./chloehasund.jpg"),
   christran: require("./christran.jpg"),
+  cindyliu: require("./cindyliu.JPG"),
   conniehou: require("./conniehou.jpg"),
   danielvitenson: require("./danielvitenson.jpg"),
   doreendong: require("./doreendong.jpg"),
@@ -32,6 +34,7 @@ export default {
   michaelabettez: require("./michaelabettez.jpg"),
   michaelzhang1: require("./michaelzhang1.jpg"),
   michaelzhang: require("./michaelzhang.jpg"),
+  nikithazachariah: require("./nikithazachariah.jpg"),
   orkosinha: require("./orkosinha.jpg"),
   paulgarell: require("./paulgarell.jpg"),
   priyamalla: require("./priyamalla.jpg"),
@@ -54,5 +57,6 @@ export default {
   teddyklausner: require("./teddyklausner.jpg"),
   victoriatan: require("./victoriatan.jpg"),
   viviye: require("./viviye.jpg"),
+  willyuan: require("./willyuan.JPG"),
   noPhoto: require("./no-name.png"),
 };
