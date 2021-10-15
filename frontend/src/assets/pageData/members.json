@@ -405,7 +405,10 @@
             "name": "Maya Devarajan",
             "year": 2024,
             "major": "Biomedical Engineering",
-            "projects": [],
+            "projects": [
+                "calmer",
+                "glasses"
+            ],
             "team": [
                 "integrative-design"
             ],
@@ -533,7 +536,9 @@
             "name": "Ruchitha Rajaghatta",
             "year": 2024,
             "major": "Computer Science",
-            "projects": [],
+            "projects": [
+                "glasses"
+            ],
             "team": [
                 "software"
             ],
@@ -686,7 +691,10 @@
             "name": "Sripad Sureshbabu",
             "year": 2024,
             "major": "Biological Sciences",
-            "projects": [],
+            "projects": [
+                "calmer",
+                "glasses"
+            ],
             "team": [
                 "integrative-design"
             ],
@@ -698,7 +706,9 @@
             "name": "Stephanie Zhang",
             "year": 2024,
             "major": "Information Science",
-            "projects": [],
+            "projects": [
+                "glasses"
+            ],
             "team": [
                 "software"
             ],
@@ -750,7 +760,9 @@
             "name": "Will Yuan",
             "year": 2024,
             "major": "Electrical Engineering",
-            "projects": [],
+            "projects": [
+                "invictus"
+            ],
             "team": [
                 "electrical"
             ],
