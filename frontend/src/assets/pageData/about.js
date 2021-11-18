@@ -6,17 +6,17 @@ export default {
     "Founded in 2012, the Cornell Engineering World Health (EWH) project team designs, constructs, and implements health solutions for underprivileged communities. Cornell EWH provides the ideal platform for students to develop both professionally and personally and deeply engage with the world around them. Although the members carry diverse academic interests and personal experiences, the multi-disciplinary team unites under the common goal of transforming the world through health technologies and welfare initiatives. Since its origin, Cornell EWH continues to delve into global challenges and turn ideas into reality.",
   stats: [
     {
-      number: 16,
+      number: 10,
       title: "Different Majors",
       image: images.briefcase,
     },
     {
-      number: 5,
+      number: 4,
       title: "Colleges Represented",
       image: images.capitol,
     },
     {
-      number: 41,
+      number: 43,
       title: "Members",
       image: images.people,
     },

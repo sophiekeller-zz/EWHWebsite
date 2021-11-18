@@ -340,7 +340,7 @@
             "team": [
                 "business"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 0px"
         },
@@ -528,7 +528,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -50px"
         },
@@ -1445,6 +1445,109 @@
         {
             "name": "Justine Burke",
             "year": 2024,
+            "major": "Biomedical Engineering",
+            "projects": [
+                "calmer",
+                "glasses"
+            ],
+            "team": [
+                "integrative-design"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Cassandra Kuo",
+            "year": 2025,
+            "major": "Health Care Policy",
+            "projects": [],
+            "team": [
+                "business"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Rishima Kasi",
+            "year": 2025,
+            "major": "Human Biology, Health, and Society",
+            "projects": [],
+            "team": [
+                "business"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Louis Valencia",
+            "year": 2025,
+            "major": "Computer Science",
+            "projects": [
+                "glasses"
+            ],
+            "team": [
+                "software"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Nuri Hong",
+            "year": 2025,
+            "major": "Biomedical Engineering",
+            "projects": [
+                "invictus"
+            ],
+            "team": [
+                "electrical"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Sherri Qazi",
+            "year": 2025,
+            "major": "Electrical and Computer Engineering",
+            "projects": [
+                "invictus"
+            ],
+            "team": [
+                "electrical"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Luciana Ruggiero",
+            "year": 2025,
+            "major": "Biomedical Engineering",
+            "projects": [
+                "calmer",
+                "glasses"
+            ],
+            "team": [
+                "integrative-design"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Pedro Vera Perez",
+            "year": 2025,
+            "major": "Biomedical Engineering",
+            "projects": [
+                "calmer",
+                "glasses"
+            ],
+            "team": [
+                "integrative-design"
+            ],
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Alexandra Friedman",
+            "year": 2025,
             "major": "Biomedical Engineering",
             "projects": [
                 "calmer",

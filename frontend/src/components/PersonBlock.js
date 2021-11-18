@@ -53,7 +53,7 @@ export default class PersonBlock extends React.Component {
       let teams = person.team;
       for (let i = 0; i < teams.length; i++) {
         console.log(i);
-        console.log(teamsData)
+        console.log(teamsData);
         title += teamsData[teams[i]].name + " & ";
       }
       title = title.substring(0, title.length - 3);
@@ -82,8 +82,6 @@ export default class PersonBlock extends React.Component {
       let projectsString = "";
       for (let i = 0; i < projects.length; i++) {
         for (let j = 0; j < projectsData.projects.length; j++) {
-          console.log(projects[i]);
-          console.log(projectsData.projects[j].id);
           if (projects[i] == projectsData.projects[j].id) {
             projectsString += projectsData.projects[j].title + ", ";
           }

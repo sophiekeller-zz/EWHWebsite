@@ -32,7 +32,7 @@ export default class App extends React.Component {
     //initialize state
     this.state = {
       screenId: screenId.about, //default to home page
-      width: window.innerWidth //get width of page(for mobile)
+      width: window.innerWidth, //get width of page(for mobile)
     };
   }
 
@@ -53,10 +53,7 @@ export default class App extends React.Component {
   /* render the navbar and the current page being looked at with router */
   render() {
     const mobile = this.state.width <= 650;
-    // let navbar = <NavBar />;
-    // if (mobile) {
-    //   navbar = <MobileNavBar />;
-    // }
+
     return (
       <div class="main-container">
         <Router>
