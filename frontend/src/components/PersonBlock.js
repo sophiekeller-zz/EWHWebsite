@@ -1,6 +1,5 @@
 import React from "react";
 import profilePics from "../assets/images/profilePics/profilePics.js";
-import members from "../assets/pageData/members.json";
 import teamsData from "../assets/pageData/teams.json";
 import projectsData from "../assets/pageData/projects.json";
 /* Person Block Component
@@ -82,12 +81,12 @@ export default class PersonBlock extends React.Component {
       let projectsString = "";
       for (let i = 0; i < projects.length; i++) {
         for (let j = 0; j < projectsData.projects.length; j++) {
-          if (projects[i] == projectsData.projects[j].id) {
+          if (projects[i] === projectsData.projects[j].id) {
             projectsString += projectsData.projects[j].title + ", ";
           }
         }
       }
-      if (projectsString == "") {
+      if (projectsString === "") {
         projectsString = "None";
       } else {
         projectsString = projectsString.substring(0, projectsString.length - 2);

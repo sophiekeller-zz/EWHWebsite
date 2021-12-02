@@ -1,7 +1,6 @@
 import React from "react";
 //ASSETS
 import images from "../assets/images/projectImages/projectImages.js";
-import teams from "../assets/pageData/teams.json";
 //COMPONENTS
 import ProjectModal from "../components/ProjectModal.js";
 import SubteamBubbles from "../components/SubteamBubbles.js";
@@ -91,11 +90,8 @@ export default class Project2 extends React.Component {
             <div className="project-description">{data.info}</div>
           )}
           <div className="project-text-overlay">
-            <div className="project-title">
-              {data.title}
-            </div>
+            <div className="project-title">{data.title}</div>
           </div>
-
         </div>
         <div className="project-text">
           <SubteamBubbles data={data.subteams} year={data.year_completed} />

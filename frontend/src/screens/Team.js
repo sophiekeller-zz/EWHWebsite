@@ -49,7 +49,7 @@ export default class Team extends React.Component {
         teamMembers.push(member);
       }
     }
-    if (teamMembers.length == 0) {
+    if (teamMembers.length === 0) {
       teamMembers = allMembers;
     }
     return teamMembers;
@@ -61,14 +61,14 @@ export default class Team extends React.Component {
   }
 
   sortByLastName(a, b) {
-    let first = a.name.split(' ')[1]
-    let second = b.name.split(' ')[1]
+    let first = a.name.split(" ")[1];
+    let second = b.name.split(" ")[1];
     if (first < second) {
-      return -1
-    } else if (first = second) {
-      return 0
+      return -1;
+    } else if ((first = second)) {
+      return 0;
     } else {
-      return 1
+      return 1;
     }
   }
 
@@ -86,7 +86,7 @@ export default class Team extends React.Component {
       teamContent = "team-content-m";
       navbar = <MobileNavBar />;
     }
-    let sortedMembers = this.state.selected.sort(this.sortByLastName)
+    let sortedMembers = this.state.selected.sort(this.sortByLastName);
     return (
       <div className="home-container">
         {navbar}
@@ -122,7 +122,7 @@ export default class Team extends React.Component {
                 })}
               </div>
               <div className={team}>
-                {this.state.filter != "all" && (
+                {this.state.filter !== "all" && (
                   <div className="team-text">
                     {teams[this.state.filter].description}{" "}
                   </div>
@@ -133,7 +133,6 @@ export default class Team extends React.Component {
                   );
                 })}
               </div>
-
             </div>
           </div>
         </div>
