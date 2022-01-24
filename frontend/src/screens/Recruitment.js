@@ -37,27 +37,26 @@ export default class Recruitment extends React.Component {
         <div className="recruitment-container">
           <div className="contact-title">Recruitment</div>
           <div className={recruitmentParagraph}>
-            We are excited to recruit new members to our team this fall. Join us
-            at our information sessions to learn more! Apply
-            <a className="freshman-form" href="https://cornell.ca1.qualtrics.com/jfe/form/SV_3ZTWcWFGHFzCeSG">
-              here
-            </a>.
+            We will not be recruiting new members this spring. Check back fall
+            2022 for recruitment details!
           </div>
-          <div className={recruitmentParagraph}>
-          </div>
-          <div className={recruitmentParagraph}>
-            {/* <a className="freshman-form"> */}
+          <div className={recruitmentParagraph}></div>
+          {/* <div className={recruitmentParagraph}>
             <b>Final Info Session: 9/28 5-6pm EST in Hollister 312</b>
-            {/* </a> */}
           </div>
           <div className={recruitmentParagraph}>
-            <a className="freshman-form" href="https://cornell.zoom.us/j/92547459277?pwd=Q0VrUzVsL2E3Ym5pVk9wTlQrNlF2dz09">
+            <a
+              className="freshman-form"
+              href="https://cornell.zoom.us/j/92547459277?pwd=Q0VrUzVsL2E3Ym5pVk9wTlQrNlF2dz09"
+            >
               <b>Click here to join through Zoom. Password: EWH</b>
             </a>
-          </div>
-          <img className="timeline-photo" alt="timeline" src={images.timeline1} />
-          <img className="timeline-photo" alt="timeline" src={images.timeline2} />
-          <div />
+          </div> */}
+          {/* <img
+            className="timeline-photo"
+            alt="timeline"
+            src={images.timeline1}
+          /> */}
           <div className="faqs-container">
             <div className={recruitmentTitle}>Frequently Asked Questions</div>
             <div className="faq-dropdowns-container">
