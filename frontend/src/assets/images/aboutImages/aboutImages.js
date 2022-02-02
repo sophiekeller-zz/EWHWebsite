@@ -2,7 +2,7 @@ export default {
   electrical: require("./electrical.png"),
   employers: require("./employers.png"),
   gradient: require("./gradient.png"),
-  group: require("./group.png"),
+  group: require("./group2.png"),
   homepic: require("./homepic.png"),
   intdesign: require("./intdesign.png"),
   infoslide: require("./infoslide.jpg"),
