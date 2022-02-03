@@ -13,8 +13,13 @@
                 "integrative-design"
             ],
             "isAlumni": false,
+<<<<<<< HEAD
             "isLead": false,
             "orientation": "0 -40px"
+=======
+            "isLead": true,
+            "orientation": "0 -20px"
+>>>>>>> fd9dbe348eebc4574f777e30c20db9055bd9c747
         },
         {
             "name": "Alan Li",
@@ -27,7 +32,12 @@
             ],
             "team": [],
             "isAlumni": false,
+<<<<<<< HEAD
             "isLead": true
+=======
+            "isLead": false,
+            "orientation": "0 -10px"
+>>>>>>> fd9dbe348eebc4574f777e30c20db9055bd9c747
         },
         {
             "name": "Alison Landry",
@@ -82,8 +92,14 @@
             "team": [
                 "software"
             ],
+<<<<<<< HEAD
             "isAlumni": true,
             "isLead": false
+=======
+            "isAlumni": false,
+            "isLead": false,
+            "orientation": "0 -10px"
+>>>>>>> fd9dbe348eebc4574f777e30c20db9055bd9c747
         },
         {
             "name": "Anya Ji",
@@ -141,7 +157,8 @@
                 "business"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Chris Tran",
@@ -167,7 +184,7 @@
             ],
             "isAlumni": false,
             "isLead": false,
-            "orientation": "0 0px"
+            "orientation": "0 -10px"
         },
         {
             "name": "Connie Hou",
@@ -184,7 +201,12 @@
                 "integrative-design"
             ],
             "isAlumni": false,
+<<<<<<< HEAD
             "isLead": false
+=======
+            "isLead": true,
+            "orientation": "0 -25px"
+>>>>>>> fd9dbe348eebc4574f777e30c20db9055bd9c747
         },
         {
             "name": "Daniel Vitenson",
@@ -200,7 +222,8 @@
                 "integrative-design"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Doreen Dong",
@@ -257,7 +280,8 @@
                 "electrical"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Hannah Mahanti",
@@ -358,7 +382,7 @@
             ],
             "isAlumni": false,
             "isLead": false,
-            "orientation": "0 0px"
+            "orientation": "0 -20px"
         },
         {
             "name": "Julia Xiong",
@@ -414,7 +438,7 @@
             ],
             "isAlumni": false,
             "isLead": false,
-            "orientation": "0 0px"
+            "orientation": "0 -15px"
         },
         {
             "name": "Michael Zhang",
@@ -501,7 +525,8 @@
                 "electrical"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -20px"
         },
         {
             "name": "Rebecca Hasser",
@@ -568,7 +593,12 @@
                 "electrical"
             ],
             "isAlumni": false,
+<<<<<<< HEAD
             "isLead": true
+=======
+            "isLead": false,
+            "orientation": "0 -20px"
+>>>>>>> fd9dbe348eebc4574f777e30c20db9055bd9c747
         },
         {
             "name": "Sam Reveiz",
@@ -682,7 +712,7 @@
             ],
             "isAlumni": false,
             "isLead": false,
-            "orientation": "0 -80px"
+            "orientation": "0 -10px"
         },
         {
             "name": "Sophie Keller",
@@ -696,7 +726,8 @@
                 "business"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -20px"
         },
         {
             "name": "Sripad Sureshbabu",
@@ -711,7 +742,7 @@
             ],
             "isAlumni": false,
             "isLead": false,
-            "orientation": "0 0px"
+            "orientation": "0 -10px"
         },
         {
             "name": "Stephanie Zhang",
@@ -751,7 +782,8 @@
                 "software"
             ],
             "isAlumni": false,
-            "isLead": true
+            "isLead": true,
+            "orientation": "0 -10px"
         },
         {
             "name": "Tori DiStefano",
@@ -765,7 +797,12 @@
                 "business"
             ],
             "isAlumni": false,
+<<<<<<< HEAD
             "isLead": false
+=======
+            "isLead": true,
+            "orientation": "0 -20px"
+>>>>>>> fd9dbe348eebc4574f777e30c20db9055bd9c747
         },
         {
             "name": "Will Yuan",
@@ -779,7 +816,7 @@
             ],
             "isAlumni": false,
             "isLead": false,
-            "orientation": "0 -10px"
+            "orientation": "0 -20px"
         },
         {
             "name": "Victoria Tan",
@@ -1451,7 +1488,12 @@
                 "integrative-design"
             ],
             "isAlumni": false,
+<<<<<<< HEAD
             "isLead": true
+=======
+            "isLead": false,
+            "orientation": "0 -10px"
+>>>>>>> fd9dbe348eebc4574f777e30c20db9055bd9c747
         },
         {
             "name": "Justine Burke",
@@ -1465,7 +1507,8 @@
                 "integrative-design"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -20px"
         },
         {
             "name": "Cassandra Kuo",
@@ -1476,7 +1519,8 @@
                 "business"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Rishima Kasi",
@@ -1487,7 +1531,8 @@
                 "business"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Louis Valencia",
@@ -1500,7 +1545,8 @@
                 "software"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Nuri Hong",
@@ -1513,7 +1559,8 @@
                 "electrical"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Sherri Qazi",
@@ -1526,7 +1573,8 @@
                 "electrical"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -10px"
         },
         {
             "name": "Luciana Ruggiero",
@@ -1568,7 +1616,8 @@
                 "integrative-design"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": false,
+            "orientation": "0 -20px"
         }
     ]
 }
