@@ -9,9 +9,11 @@
                 "kijenzi",
                 "calmer"
             ],
-            "team": [],
+            "team": [
+                "integrative-design"
+            ],
             "isAlumni": false,
-            "isLead": true,
+            "isLead": false,
             "orientation": "0 -40px"
         },
         {
@@ -23,11 +25,9 @@
                 "calmer",
                 "glasses"
             ],
-            "team": [
-                "integrative-design"
-            ],
+            "team": [],
             "isAlumni": false,
-            "isLead": false
+            "isLead": true
         },
         {
             "name": "Alison Landry",
@@ -82,7 +82,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -184,7 +184,7 @@
                 "integrative-design"
             ],
             "isAlumni": false,
-            "isLead": true
+            "isLead": false
         },
         {
             "name": "Daniel Vitenson",
@@ -227,7 +227,7 @@
             "team": [
                 "business"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false
         },
         {
@@ -298,7 +298,7 @@
             "team": [
                 "business"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -1px"
         },
@@ -371,7 +371,7 @@
                 "business"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": true
         },
         {
             "name": "Kerry Johnson",
@@ -386,7 +386,7 @@
                 "electrical"
             ],
             "isAlumni": false,
-            "isLead": true
+            "isLead": false
         },
         {
             "name": "Manan Modi",
@@ -427,7 +427,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 0px"
         },
@@ -515,7 +515,18 @@
             "team": [
                 "electrical"
             ],
-            "isAlumni": true,
+            "isAlumni": false,
+            "isLead": false
+        },
+        {
+            "name": "Reeti Mangal",
+            "year": 2022,
+            "major": "Computer Science",
+            "projects": [],
+            "team": [
+                "software"
+            ],
+            "isAlumni": false,
             "isLead": false
         },
         {
@@ -557,7 +568,7 @@
                 "electrical"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": true
         },
         {
             "name": "Sam Reveiz",
@@ -569,7 +580,7 @@
             "team": [
                 "electrical"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -30px"
         },
@@ -612,7 +623,7 @@
             "team": [
                 "software"
             ],
-            "isAlumni": false,
+            "isAlumni": true,
             "isLead": false,
             "orientation": "0 -10px"
         },
@@ -754,7 +765,7 @@
                 "business"
             ],
             "isAlumni": false,
-            "isLead": true
+            "isLead": false
         },
         {
             "name": "Will Yuan",
@@ -1440,7 +1451,7 @@
                 "integrative-design"
             ],
             "isAlumni": false,
-            "isLead": false
+            "isLead": true
         },
         {
             "name": "Justine Burke",
