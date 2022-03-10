@@ -6,6 +6,7 @@ import SubteamBubbles from "./SubteamBubbles.js";
 import headerPhotos from "../assets/images/headerImages/headerImages.js";
 import collaborators from "../assets/images/institutions/institutions.js";
 import members from "../assets/pageData/members.json";
+import projectDescriptionImages from "../assets/images/projectDescriptionImages/projectDescriptionImages.js";
 /* Project Modal Component for Project Component
  * PROPS:
  * mobile = true if the screen rendering the site has width less than 650 px, bool
@@ -71,6 +72,30 @@ export default class ProjectModal extends React.Component {
               {data.info_long.split("\n").map((text) => {
                 return <div className="project-modal-description">{text}</div>;
               })}
+            </div>
+            <div>
+              {data.images && data.images.length > 0 && (
+                <div
+                  style={{
+                    display: "flex",
+                    "justify-content": "center",
+                  }}
+                >
+                  {data.images.map((image, index) => {
+                    return (
+                      <img
+                        style={{
+                          height: image[1][0],
+                          width: image[1][1],
+                          padding: "5px",
+                        }}
+                        src={projectDescriptionImages[image[0]]}
+                        alt=""
+                      />
+                    );
+                  })}
+                </div>
+              )}
             </div>
             <div className="modal-section">
               <div className="section-title">Team Members</div>
