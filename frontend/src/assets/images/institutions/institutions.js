@@ -8,7 +8,8 @@ export default {
   medlife: require("./medlife.png"),
   cayuga: require("./cmc.jpg"),
   path: require("./path.png"),
-  msh: require('./msh.png'),
+  msh: require("./msh.png"),
   aurolab: require("./aurolab.png"),
-  aecs: require("./aecs.png")
+  aecs: require("./aecs.png"),
+  bcchildrens: require("./bcchildrens.png"),
 };

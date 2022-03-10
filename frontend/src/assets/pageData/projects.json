@@ -32,12 +32,14 @@
             "id": "calmer",
             "title": "Calmer Project",
             "subteams": [
-                "integrative-design"
+                "integrative-design",
+                "electrical"
             ],
-            "info": "Our Integrative Design team is currently developing a device to aid pain management for infants in the NICU, working with a Professor at B.C. Children's Hospital.",
-            "isActive": true,
+            "info": "Our Integrative Design and Electrical teams are currently developing a device to aid pain management for infants in the NICU, working with Dr. Liisa Holsti at B.C. Children's Hospital. The teams are modifying Holsti’s existing Calmer design to optimize it for uptake in lower-and-middle-income countries.",
+            "info_long": "An ongoing challenge that the neonatal medical community faces is pain management for preterm infants in Neonatal Intensive Care Units (NICU). One common pain management method is the Kangaroo Mother Care (KMC) technique, which involves holding an infant in an upright position on the infant caretaker’s bare chest for long periods of time. However, the KMC technique is not suitable for use because caretakers are unable to use it during pain-inducing procedures. \n To address this challenge, researchers at the University of British Columbia under the leadership of Dr. Liisa Holsti developed the Calmer device, a complex medical instrument that simulates Kangaroo Mother Care (KMC) to manage premature infants’ pain in the NICU. Clinical trials have found that the Calmer device provides the same level of pain management for premature infants as human contact using the KMC technique by replicating a heartbeat sound, using a heated and textured surface, and mimicking a breathing motion. \n Lower-and-middle-income countries have the highest rates of preterm births, but the current Calmer device is too expensive and energy-demanding for effective utilization in these countries. Furthermore, the current Calmer device isn’t designed for dust protection and easy transport. Thus, our Integrative Design and Electrical subteams worked with Dr. Holsti to redesign the Calmer device for usage in these countries. \n In our initial prototyping iteration, we pursued two separate prototypes that utilize two different breathing motion methods: 1) Mechanical prototype - a vertical lift is generated against a platform by a camshaft that rotates rhythmically. 2) Mechanical/fluid hybrid prototype - a camshaft compresses a fluid-filled pouch to generate upwards lift against a platform in order to decrease the shear stress on the motor shaft. \n Separately, we formed an initial electrical design for wiring a speaker for the heartbeat sound with a motor to run the camshaft. At the end of the design iteration, we selected the mechanical solution due to better rigidity and fewer failure points. \n After that, we were able to redesign and fully assemble a working prototype of the Calmer device. Starting with a consolidation of our previous two designs, we settled on a new mechanical design which incorporated some elements of the fluid design. We were then able to fully design this new prototype in a CAD file, manufacture it, and conduct some brief testing. ",
+            "isActive": false,
             "collaborators": [
-                "Management Sciences for Health Collaboration"
+                "bcchildrens"
             ]
         },
         {
