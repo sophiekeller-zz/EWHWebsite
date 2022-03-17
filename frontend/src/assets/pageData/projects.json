@@ -7,7 +7,7 @@
                 "software"
             ],
             "info": "Currently, menstrual health is considered very taboo in low-resource communities in India. The software subteam is partnering with Barefoot College to design and implement an educational game with an engaging story-line and rich visuals to teach women about their bodies from the safety of their own homes.",
-            "info_long": "Health Friend is a menstrual health education game designed for women aged between 15-50 in rural India. While menstrual health is still a taboo in many low-resource communities in India, Health Friend provides women an informative, transparent, and narrative-driven menstrual health education experience. \n Collaborators at Barefoot College informed the team that when they show videos to their students, they feel that the information is much easier to learn than with print materials, especially when it comes to the complex biological processes involved with women’ s health. The game is written with Kivy, an open - source Python library.With an engaging story line and interactive game features, the user is able to be learning while enjoying the story. At the end of each chapter, users will also be required to complete assessment modules to unlock the next chapter. The game analytics of the quiz modules are exported to the collaborators at Barefoot College to further help them improve their menstrual health curriculum. \n Health Friend has been passed off to our collaborators at Barefoot College for use. It’s also available on the Google Play Store.",
+            "info_long": "Health Friend is a menstrual health education game designed for women aged between 15-50 in rural India, specifically those with low literacy or little to no prior experience with tech. While menstrual health and hygiene are still taboo in many low-resource communities in India, Health Friend provides women an informative, transparent, and narrative-driven menstrual health education experience. \n Collaborators at Barefoot College informed the team that when they show videos to their students, they feel that the information is much easier to learn than with print materials, especially when it comes to the complex biological processes involved with women’s health. The game is written with Kivy, an open-source Python library. With an engaging storyline and interactive game features, the user is able to be learning while enjoying the story. At the end of each chapter, users will also be required to complete assessment modules to unlock the next chapter. There are 10 chapters covering different topics, such as mensuration, health services, and contraception. The game analytics of the quiz modules are exported to the collaborators at Barefoot College to further help them improve their menstrual health curriculum. Teachers have the ability to create their own accounts and build their student roster for their classrooms on the website. \n Health Friend has been passed off to our collaborators at Barefoot College for use. It’s also available on the Google Play Store.",
             "isActive": false,
             "collaborators": [
                 "barefootcollege"
@@ -37,7 +37,22 @@
             ],
             "info": "Our Integrative Design and Electrical teams are currently developing a device to aid pain management for infants in the NICU, working with Dr. Liisa Holsti at B.C. Children's Hospital. The teams are modifying Holsti’s existing Calmer design to optimize it for uptake in lower-and-middle-income countries.",
             "info_long": "An ongoing challenge that the neonatal medical community faces is pain management for preterm infants in Neonatal Intensive Care Units (NICU). One common pain management method is the Kangaroo Mother Care (KMC) technique, which involves holding an infant in an upright position on the infant caretaker’s bare chest for long periods of time. However, the KMC technique is not suitable for use because caretakers are unable to use it during pain-inducing procedures. \n To address this challenge, researchers at the University of British Columbia under the leadership of Dr. Liisa Holsti developed the Calmer device, a complex medical instrument that simulates Kangaroo Mother Care (KMC) to manage premature infants’ pain in the NICU. Clinical trials have found that the Calmer device provides the same level of pain management for premature infants as human contact using the KMC technique by replicating a heartbeat sound, using a heated and textured surface, and mimicking a breathing motion. \n Lower-and-middle-income countries have the highest rates of preterm births, but the current Calmer device is too expensive and energy-demanding for effective utilization in these countries. Furthermore, the current Calmer device isn’t designed for dust protection and easy transport. Thus, our Integrative Design and Electrical subteams worked with Dr. Holsti to redesign the Calmer device for usage in these countries. \n In our initial prototyping iteration, we pursued two separate prototypes that utilize two different breathing motion methods: 1) Mechanical prototype - a vertical lift is generated against a platform by a camshaft that rotates rhythmically. 2) Mechanical/fluid hybrid prototype - a camshaft compresses a fluid-filled pouch to generate upwards lift against a platform in order to decrease the shear stress on the motor shaft. \n Separately, we formed an initial electrical design for wiring a speaker for the heartbeat sound with a motor to run the camshaft. At the end of the design iteration, we selected the mechanical solution due to better rigidity and fewer failure points. \n After that, we were able to redesign and fully assemble a working prototype of the Calmer device. Starting with a consolidation of our previous two designs, we settled on a new mechanical design which incorporated some elements of the fluid design. We were then able to fully design this new prototype in a CAD file, manufacture it, and conduct some brief testing. ",
-            "images": [["calmer1", ["300px", "174px"]], ["calmer2", ["300px", "174px"]]], 
+            "images": [
+                [
+                    "calmer1",
+                    [
+                        "300px",
+                        "174px"
+                    ]
+                ],
+                [
+                    "calmer2",
+                    [
+                        "300px",
+                        "174px"
+                    ]
+                ]
+            ],
             "isActive": false,
             "collaborators": [
                 "bcchildrens"
@@ -236,7 +251,15 @@
             "isActive": false,
             "info": "Mycotoxins are metabolites of fungi that contaminate crops, especially in resource-constrained settings. This project developed a low-cost gravity table that small-holder farmers can use to sort and filter mycotoxin-infested crops to produce safe, healthy foods.",
             "info_long": "Mycotoxins, notably aflatoxin and fumonisin, are metabolites of fungi that contaminate staple crops predominantly in resource-limited settings. Due to their immunosuppressive, carcinogenic, and toxic effects, mycotoxins pose a serious threat to human health across the globe. The populations most susceptible to mycotoxin exposure are those living in rural, resource-limited areas, where subsistence farming is common and food insecurity is a pressing issue.\n Cornell Engineering World Health developed a low-cost, effective solution that small-holder farmers can use to sort their crops and provide safe, healthy food for themselves and their communities. This device was a small-scale gravity table constructed with low-cost, durable, and accessible materials. The table was predominantly made of wood, with a mesh deck, a fan to provide airflow, and a vibrating motor. It was designed to be largely portable, with multiple detachable parts that enabled easy transport. The gravity table sorted out mycotoxin-infected corn kernels from healthy kernels on the basis of density differences. Infected kernels are less dense and thus when fed onto a dual-angled vibrating mesh deck, the fan levitates the contaminated kernels into a separate bin from the healthy ones. This device serves as a low resource option for sorting toxins in corn.",
-            "images": [["mycotox", ["151px", "300px"]]],
+            "images": [
+                [
+                    "mycotox",
+                    [
+                        "151px",
+                        "300px"
+                    ]
+                ]
+            ],
             "collaborators": [],
             "year_completed": 2017
         },
