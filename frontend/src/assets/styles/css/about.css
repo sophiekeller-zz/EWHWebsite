@@ -4,8 +4,8 @@
   text-align: center;
   width: 76vw;
   color: #253263;
-  margin-top: 5vw;
-  margin-bottom: 2vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
 }
 .home-opener-m {
   font-size: 20px;
@@ -19,8 +19,8 @@
 .home-paragraph {
   font-size: 18px;
   width: 76vw;
-  margin-top: 5vw;
-  margin-bottom: 2vw;
+  margin-top: 3vw;
+  margin-bottom: 9vw;
 }
 .home-paragraph-m {
   margin: 10vw;
@@ -37,6 +37,7 @@
   height: auto;
   width: 60vw;
 }
+
 .piechart-image-m {
   height: auto;
   width: 95vw;
@@ -44,6 +45,7 @@
 .home-image {
   width: 100vw;
   height: auto;
+  margin-top: -6vw;
 }
 .home-stat {
   text-align: center;
@@ -68,7 +70,7 @@
   text-align: left;
   width: 76vw;
   color: #253263;
-  margin-top: 4vw;
+  margin-top: 3vw;
 }
 .home-stat-image {
   height: 30px;
