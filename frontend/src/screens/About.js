@@ -65,11 +65,11 @@ export default class About extends React.Component {
         </div>
         <div className="home-sections-container">
           <div className={homeOpener}>{aboutText.mission}</div>
-          <div className={aboutNavButtons}>
+          {/* <div className={aboutNavButtons}>
             <Link to="/join" style={{ textDecoration: "none" }}>
               <div className="home-button">Apply Now</div>
             </Link>
-          </div>
+          </div> */}
           <SubButtons mobile={this.props.mobile} />
           <div className={homeParagraph}>{aboutText.biography}</div>
 

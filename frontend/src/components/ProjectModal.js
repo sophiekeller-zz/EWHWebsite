@@ -78,6 +78,7 @@ export default class ProjectModal extends React.Component {
                 <div
                   style={{
                     display: "flex",
+                    "flex-wrap": "wrap",
                     "justify-content": "center",
                   }}
                 >

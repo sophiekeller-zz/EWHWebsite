@@ -8,6 +8,22 @@
             ],
             "info": "Currently, menstrual health is considered very taboo in low-resource communities in India. The software subteam is partnering with Barefoot College to design and implement an educational game with an engaging story-line and rich visuals to teach women about their bodies from the safety of their own homes.",
             "info_long": "Health Friend is a menstrual health education game designed for women aged between 15-50 in rural India, specifically those with low literacy or little to no prior experience with tech. While menstrual health and hygiene are still taboo in many low-resource communities in India, Health Friend provides women an informative, transparent, and narrative-driven menstrual health education experience. \n Collaborators at Barefoot College informed the team that when they show videos to their students, they feel that the information is much easier to learn than with print materials, especially when it comes to the complex biological processes involved with women’s health. The game is written with Kivy, an open-source Python library. With an engaging storyline and interactive game features, the user is able to be learning while enjoying the story. At the end of each chapter, users will also be required to complete assessment modules to unlock the next chapter. There are 10 chapters covering different topics, such as mensuration, health services, and contraception. The game analytics of the quiz modules are exported to the collaborators at Barefoot College to further help them improve their menstrual health curriculum. Teachers have the ability to create their own accounts and build their student roster for their classrooms on the website. \n Health Friend has been passed off to our collaborators at Barefoot College for use. It’s also available on the Google Play Store.",
+            "images": [
+                [
+                    "healthfriend1",
+                    [
+                        "300px",
+                        "500px"
+                    ]
+                ],
+                [
+                    "healthfriend2",
+                    [
+                        "300px",
+                        "500px"
+                    ]
+                ]
+            ],
             "isActive": false,
             "collaborators": [
                 "barefootcollege"
