@@ -1,4 +1,6 @@
 export default {
-  projectHeader: require("./microscope.jpeg"),
+  projectHeader: require("./teamwork.png"),
   secondHeader: require("./wires.jpeg"),
+  joinHeader: require("./team.jpg"),
+  contactHeader: require("./contact.jpeg"),
 };

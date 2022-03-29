@@ -30,7 +30,7 @@ export default class Recruitment extends React.Component {
         {navbar}
         <Header
           mobile={this.props.mobile}
-          photo={headerPhotos.secondHeader}
+          photo={headerPhotos.joinHeader}
           state={this.state}
           title="Join Us"
         />

@@ -1,6 +1,6 @@
 export default {
-  cad: require("./cad.jpeg"),
-  computer: require("./computer.jpeg"),
-  drawing: require("./drawing.jpeg"),
-  tinkering: require("./tinkering.jpg")
-}
+  wires: require("./wires.jpeg"),
+  collaboration: require("./collaboration.jpeg"),
+  glue: require("./glue.png"),
+  computer: require("./computer2.jpeg"),
+};

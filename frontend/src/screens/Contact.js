@@ -78,7 +78,7 @@ export default class Contact extends React.Component {
         {navbar}
         <Header
           mobile={this.props.mobile}
-          photo={headerPhotos.secondHeader}
+          photo={headerPhotos.contactHeader}
           state={this.state}
           title="Contact Us"
         />
