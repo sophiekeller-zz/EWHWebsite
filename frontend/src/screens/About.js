@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-grid-carousel";
 import { Link } from "react-router-dom";
 import NavBar from "../components/Navbar.js";
 import MobileNavBar from "../components/MobileNavBar.js";
@@ -8,6 +9,7 @@ import SubButtons from "../components/SubButtons";
 import images from "../assets/images/aboutImages/aboutImages.js";
 import aboutText from "../assets/pageData/about.js";
 import carousel from "../assets/images/carousel/carousel.js";
+import carousel2 from "../assets/images/carousel/carousel2.js";
 
 /* About Page Component
  * PROPS:
@@ -18,6 +20,7 @@ export default class About extends React.Component {
     super(props);
     this.state = {
       carouselImages: Object.keys(carousel),
+      carouselImages2: Object.keys(carousel2),
     };
   }
   render() {
@@ -52,11 +55,11 @@ export default class About extends React.Component {
             {this.state.carouselImages.map((image) => {
               return (
                 <Carousel.Item className="carousel">
-                  <CarouselItem
-                    headerPhoto={headerPhoto}
-                    mainPhoto={carousel[image]}
-                    nameLogo={nameLogo}
-                  />
+                  {/* <CarouselItem */}
+                  headerPhoto={headerPhoto}
+                  mainPhoto={carousel[image]}
+                  nameLogo={nameLogo}
+                  {/* /> */}
                 </Carousel.Item>
               );
             })}
@@ -70,14 +73,29 @@ export default class About extends React.Component {
               <div className="home-button">Apply Now</div>
             </Link>
           </div> */}
-          <SubButtons mobile={this.props.mobile} />
+          {/* <SubButtons mobile={this.props.mobile} /> */}
+          <div className="carousel-container">
+            <Carousel cols={3} rows={1} gap={10} loop>
+              {this.state.carouselImages2.map((image) => {
+                return (
+                  <Carousel.Item className="carousel2">
+                    {/* <CarouselItem */}
+                    {/* headerPhoto={headerPhoto}
+                    mainPhoto={carousel2[image]} */}
+                    <img width="100%" src={carousel2[image]} height="300px" />
+                    {/* /> */}
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
+          </div>
           <div className={homeParagraph}>{aboutText.biography}</div>
 
           <img className="home-image" src={images.group} alt="" />
           <div className="home-graphs-title">EWH in Numbers</div>
           <div className={graphics}>
             <div className="home-graph-container">
-              <div className="home-graph-label">Our Majors</div>
+              {/* <div className="home-graph-label">Our Majors</div> */}
               <img className={pieChart} src={images.graph} alt="" />
             </div>
             <div className={statisticsClass}>

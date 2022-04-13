@@ -8,7 +8,7 @@ import Modal from "react-bootstrap/Modal";
 import NavBar from "../components/Navbar.js";
 import MobileNavBar from "../components/MobileNavBar.js";
 import { Document, Page } from "react-pdf/dist/umd/entry.webpack";
-import samplePDF from "./info_packet.pdf";
+import samplePDF from "./.info_packet.pdf.icloud";
 
 const emailjs = require("emailjs-com");
 // const {google} = require('googleapis');

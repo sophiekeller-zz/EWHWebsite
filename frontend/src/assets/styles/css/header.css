@@ -8,6 +8,7 @@
   height: 400px;
   object-fit: cover;
 }
+
 .header-photo-m {
   position: relative;
   top: 0;
@@ -22,18 +23,23 @@
   top: 40%;
   left: calc((100vw - 497px) / 2);
 }
+
 .name-logo-m {
   position: absolute;
   top: 30%;
   width: 300px;
   left: calc((100vw - 300px) / 2);
 }
+
 .carousel-class {
   height: 400px;
+  /* width: 800px; */
 }
+
 .carousel-class-m {
   height: 250px;
 }
+
 .header-text {
   position: absolute;
   top: 60%;
@@ -45,21 +51,22 @@
   margin-left: -200px;
   text-align: center;
 }
+
 .header-gradient {
   position: absolute;
-  background-image: linear-gradient(
-    1.65deg,
-    #253263 1.13%,
-    rgba(196, 196, 196, 0) 96.36%
-  );
+  background-image: linear-gradient(1.65deg,
+      #253263 1.13%,
+      rgba(196, 196, 196, 0) 96.36%);
   top: 0px;
   left: 0;
   right: 0;
   bottom: 0;
 }
+
 .header-container {
   position: relative;
 }
+
 .carousel-container {
   display: flex;
   position: relative;
