@@ -76,7 +76,7 @@ export default class About extends React.Component {
           </div> */}
           {/* <SubButtons mobile={this.props.mobile} /> */}
           <div className="carousel-container">
-            <Carousel cols={3} rows={1} gap={10} loop>
+            <Carousel cols={3} rows={1} gap={8} loop>
               {this.state.carouselImages2.map((image) => {
                 return (
                   <Carousel.Item>
