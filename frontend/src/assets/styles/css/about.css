@@ -1,8 +1,8 @@
 .carousel-pic {
+  width: 100%;
+  height: 300px;
   object-fit: cover;
   position: relative;
-  width: 350px;
-  height: 350px;
 }
 
 .home-opener {

@@ -80,12 +80,7 @@ export default class About extends React.Component {
               {this.state.carouselImages2.map((image) => {
                 return (
                   <Carousel.Item>
-                    {/* <CarouselItem> */}
-                    {/* headerPhoto={headerPhoto}
-                    mainPhoto={carousel2[image]}
-                    nameLogo={nameLogo} */}
-                    <img className={carouselPic} src={carousel2[image]} />
-                    {/* </CarouselItem> */}
+                    <img class={carouselPic} src={carousel2[image]} />
                   </Carousel.Item>
                 );
               })}
