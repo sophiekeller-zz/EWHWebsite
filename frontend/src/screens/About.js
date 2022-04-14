@@ -1,5 +1,5 @@
 import React from "react";
-// import Carousel from "react-bootstrap/Carousel";
+import TopCarousel from "react-bootstrap/Carousel";
 import Carousel from "react-grid-carousel";
 import { Link } from "react-router-dom";
 import NavBar from "../components/Navbar.js";
@@ -24,6 +24,7 @@ export default class About extends React.Component {
     };
   }
   render() {
+    let carouselPic = "carousel-pic";
     let homeOpener = "home-opener";
     let homeParagraph = "home-paragraph";
     let nameLogo = "name-logo";
@@ -51,19 +52,19 @@ export default class About extends React.Component {
       <div className="home-container">
         {navbar}
         <div className="carousel-container">
-          <Carousel className={carouselClass}>
+          <TopCarousel className={carouselClass}>
             {this.state.carouselImages.map((image) => {
               return (
-                <Carousel.Item className="carousel">
-                  {/* <CarouselItem */}
-                  headerPhoto={headerPhoto}
-                  mainPhoto={carousel[image]}
-                  nameLogo={nameLogo}
-                  {/* /> */}
-                </Carousel.Item>
+                <TopCarousel.Item className="carousel">
+                  <CarouselItem
+                    headerPhoto={headerPhoto}
+                    mainPhoto={carousel[image]}
+                    nameLogo={nameLogo}
+                  />
+                </TopCarousel.Item>
               );
             })}
-          </Carousel>
+          </TopCarousel>
           <img className={nameLogo} alt="background" src={images.namelogo} />
         </div>
         <div className="home-sections-container">
@@ -78,12 +79,13 @@ export default class About extends React.Component {
             <Carousel cols={3} rows={1} gap={10} loop>
               {this.state.carouselImages2.map((image) => {
                 return (
-                  <Carousel.Item className="carousel2">
-                    {/* <CarouselItem */}
-                    {/* headerPhoto={headerPhoto}
-                    mainPhoto={carousel2[image]} */}
-                    <img width="100%" src={carousel2[image]} height="300px" />
-                    {/* /> */}
+                  <Carousel.Item>
+                    <CarouselItem>
+                      headerPhoto={headerPhoto}
+                      mainPhoto={carousel2[image]}
+                      nameLogo={nameLogo}
+                      {/* <img className={carouselPic} src={carousel2[image]} /> */}
+                    </CarouselItem>
                   </Carousel.Item>
                 );
               })}
