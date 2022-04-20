@@ -83,9 +83,22 @@ export default class Contact extends React.Component {
           title="Contact Us"
         />
         <div className="contacts-container">
-          <div className="contact-title">Support Our Mission</div>
+          <div className="contact-title">Our Mission</div>
           <div className="contact-paragraph">
-            {pageData.sponsorship_paragraph}
+            {pageData.our_mission_paragraph}
+          </div>
+          <div className="contact-title">How Do We Do This?</div>
+          <div className="contact-paragraph">
+            {pageData.how_do_we_do_this_paragraph}
+          </div>
+          <div className="contact-title">Team Values</div>
+          <div className="contact-paragraph">
+            <ul>
+              <li>Accessibility</li>
+              <li>Impact</li>
+              <li>Education</li>
+              <li>Cultural Appreciation</li>
+            </ul>
           </div>
           <div className="contact-title">Join Us As a Collaborator</div>
           <div className="contact-paragraph">
