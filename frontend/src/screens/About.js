@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import TopCarousel from "react-bootstrap/Carousel";
+import Carousel from "react-grid-carousel";
 import { Link } from "react-router-dom";
 import NavBar from "../components/Navbar.js";
 import MobileNavBar from "../components/MobileNavBar.js";
@@ -8,6 +9,7 @@ import SubButtons from "../components/SubButtons";
 import images from "../assets/images/aboutImages/aboutImages.js";
 import aboutText from "../assets/pageData/about.js";
 import carousel from "../assets/images/carousel/carousel.js";
+import carousel2 from "../assets/images/carousel/carousel2.js";
 
 /* About Page Component
  * PROPS:
@@ -18,9 +20,11 @@ export default class About extends React.Component {
     super(props);
     this.state = {
       carouselImages: Object.keys(carousel),
+      carouselImages2: Object.keys(carousel2),
     };
   }
   render() {
+    let carouselPic = "carousel-pic";
     let homeOpener = "home-opener";
     let homeParagraph = "home-paragraph";
     let nameLogo = "name-logo";
@@ -48,19 +52,19 @@ export default class About extends React.Component {
       <div className="home-container">
         {navbar}
         <div className="carousel-container">
-          <Carousel className={carouselClass}>
+          <TopCarousel className={carouselClass}>
             {this.state.carouselImages.map((image) => {
               return (
-                <Carousel.Item className="carousel">
+                <TopCarousel.Item className="carousel">
                   <CarouselItem
                     headerPhoto={headerPhoto}
                     mainPhoto={carousel[image]}
                     nameLogo={nameLogo}
                   />
-                </Carousel.Item>
+                </TopCarousel.Item>
               );
             })}
-          </Carousel>
+          </TopCarousel>
           <img className={nameLogo} alt="background" src={images.namelogo} />
         </div>
         <div className="home-sections-container">
@@ -70,14 +74,25 @@ export default class About extends React.Component {
               <div className="home-button">Apply Now</div>
             </Link>
           </div> */}
-          <SubButtons mobile={this.props.mobile} />
+          {/* <SubButtons mobile={this.props.mobile} /> */}
+          <div className="carousel-container">
+            <Carousel cols={3} rows={1} gap={8} loop>
+              {this.state.carouselImages2.map((image) => {
+                return (
+                  <Carousel.Item>
+                    <img class={carouselPic} src={carousel2[image]} />
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
+          </div>
           <div className={homeParagraph}>{aboutText.biography}</div>
 
           <img className="home-image" src={images.group} alt="" />
           <div className="home-graphs-title">EWH in Numbers</div>
           <div className={graphics}>
             <div className="home-graph-container">
-              <div className="home-graph-label">Our Majors</div>
+              {/* <div className="home-graph-label">Our Majors</div> */}
               <img className={pieChart} src={images.graph} alt="" />
             </div>
             <div className={statisticsClass}>
