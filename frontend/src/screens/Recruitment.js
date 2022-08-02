@@ -37,8 +37,9 @@ export default class Recruitment extends React.Component {
         <div className="recruitment-container">
           <div className="contact-title">Recruitment</div>
           <div className={recruitmentParagraph}>
-            We will not be recruiting new members this spring. Check back fall
-            2022 for recruitment details!
+            We are now accepting applications for the Fall 2022 semester! Please click
+            <a href="https://www.engineering.cornell.edu/cornell-engineering-student-project-teams-join-a-team#team-specific-applications"> here </a>
+            for more information. All students regardless of graduation year will be recruited according to the First-Year recruitment timeline.
           </div>
           <div className={recruitmentParagraph}></div>
           {/* <div className={recruitmentParagraph}>
