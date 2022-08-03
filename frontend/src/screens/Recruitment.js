@@ -38,8 +38,8 @@ export default class Recruitment extends React.Component {
           <div className="contact-title">Recruitment</div>
           <div className={recruitmentParagraph}>
             We are now accepting applications for the Fall 2022 semester! Please click
-            <a href="https://www.engineering.cornell.edu/cornell-engineering-student-project-teams-join-a-team#team-specific-applications"> here </a>
-            for more information. All students regardless of graduation year will be recruited according to the First-Year recruitment timeline.
+            <a href="https://www.engineering.cornell.edu/cornell-engineering-student-project-teams-join-a-team"> here </a>
+            for more information. All students, regardless of graduation year, will be recruited according to the First-Year recruitment timeline.
           </div>
           <div className={recruitmentParagraph}></div>
           {/* <div className={recruitmentParagraph}>
