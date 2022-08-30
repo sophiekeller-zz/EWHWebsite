@@ -22,5 +22,6 @@ export default {
   "infusion-pump": require("./reli.png"),
   "autologous-transfusion": require("./transfusion.png"),
   glasses: require("./eyecare.jpg"),
-  "first-opinion": require("./first-opinion.png")
+  "first-opinion": require("./first-opinion.png"),
+  "eikufuba": require("./eikufuba.jpg")
 };

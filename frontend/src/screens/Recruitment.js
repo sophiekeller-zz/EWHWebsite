@@ -40,6 +40,29 @@ export default class Recruitment extends React.Component {
             We are now accepting applications for the Fall 2022 semester! Please click
             <a href="https://www.engineering.cornell.edu/cornell-engineering-student-project-teams-join-a-team"> here </a>
             for more information. All students, regardless of graduation year, will be recruited according to the First-Year recruitment timeline.
+
+            <div className="recruitment-container">
+              <div className="contact-title">Key Dates </div>
+
+              <ul>
+                <li>
+                  Thursday, 9/1: Project Team Fest |
+                  Duffield Atrium, 4-7 PM
+                </li>
+                <li>
+                  Tuesday, 9/6: Info Session 1 |
+                  Location TBD, 5-6 PM
+                </li>
+                <li>
+                  Thursday, 9/8: Info Session 2 |
+                  Location TBD, 5-6 PM
+                </li>
+                <li>Thursday, 9/29: Applications Due |
+                  Freshmen + Upperclassmen, 11:59 PM
+                </li>
+              </ul>
+              Note: All applications will be reviewed at the same time. All majors are encouraged to apply!
+            </div>
           </div>
           <div className={recruitmentParagraph}></div>
           {/* <div className={recruitmentParagraph}>
@@ -74,7 +97,7 @@ export default class Recruitment extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     );
   }
 }

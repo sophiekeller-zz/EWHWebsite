@@ -374,6 +374,17 @@
             "isLead": true
         },
         {
+            "name": "Cassandra Kuo",
+            "year": 2025,
+            "major": "Health Care Policy",
+            "projects": [],
+            "team": [
+                "business"
+            ],
+            "isAlumni": false,
+            "isLead": true
+        },
+        {
             "name": "Kerry Johnson",
             "year": 2022,
             "major": "Electrical & Computer Engineering",
@@ -1463,17 +1474,6 @@
             ],
             "team": [
                 "integrative-design"
-            ],
-            "isAlumni": false,
-            "isLead": false
-        },
-        {
-            "name": "Cassandra Kuo",
-            "year": 2025,
-            "major": "Health Care Policy",
-            "projects": [],
-            "team": [
-                "business"
             ],
             "isAlumni": false,
             "isLead": false

@@ -1,6 +1,99 @@
 {
     "projects": [
         {
+            "id": "invictus",
+            "title": "Invictus BCI Collaboration",
+            "subteams": [
+                "electrical"
+            ],
+            "info": "Our Electrical team is currently working with the startup Invictus BCI to improve the EMG armband of their prosthetic hand model. To do this, the team is developing a prototype that will interpret muscle signals at lower costs.",
+            "isActive": true,
+            "collaborators": [
+                "Management Sciences for Health Collaboration"
+            ]
+        },
+        {
+            "id": "eikufuba",
+            "title": "Eikufuba Educational Project",
+            "subteams": [
+                "software"
+            ],
+            "isActive": true,
+            "info": "Ekifuba Educational Program is a collaboration with Rose Academies and is a simple, easy to understand, innovative approach to breaking barriers of stigma, fear, myths, and misconceptions of tuberculosis. Our primary goal is to address the lack of understanding about TB and improve knowledge of the disease, symptoms, prevention, and treatment so that the occurrence of TB can be reduced substantially. The program will run on an Android table that has been successfully used as an education tool since its introduction into Uganda’s rural communities in 2018. The program runs offline internet, features simple graphics and limited text as the lesson is taught in the local dialect by a Rose Uganda Fellow. Workshops are taught in a group setting, with lessons that improve understanding of TB transmission, prevention through healthy choices, nutrition, and sanitation, and early diagnosis and treatment.",
+            "collaborators": []
+        },
+        {
+            "id": "first-opinion",
+            "title": "First Opinion",
+            "subteams": [
+                "business"
+            ],
+            "isActive": true,
+            "info": "This project is a collaboration with an early phase start-up called First Opinion that seeks to provide a low-cost resource for accurate medical information in India. This is the business team’s first official collaboration in a while, featuring marketing, biz dev, and web dev services. ",
+            "collaborators": []
+        },
+        {
+            "id": "calmer",
+            "title": "Calmer Project",
+            "subteams": [
+                "integrative-design",
+                "electrical"
+            ],
+            "info": "Our Integrative Design and Electrical teams are currently developing a device to aid pain management for infants in the NICU, working with Dr. Liisa Holsti at B.C. Children's Hospital. The teams are modifying Holsti’s existing Calmer design to optimize it for uptake in lower-and-middle-income countries.",
+            "info_long": "Worldwide, over 15 million infants are born preterm. A current challenge that the neonatal healthcare community faces today is pain management for preterm infants in Neonatal Intensive Care Units (NICU). It is well established that early exposure to pain in preterm infants is associated with negative effects on neurodevelopmental outcomes. However, in lower- and middle-income countries, there is a distinct shortage of pain medication available. One common pain management method is the Kangaroo Mother Care (KMC) technique, which involves holding an infant in an upright position on the infant caretaker’s bare chest for long periods of time. However, the KMC technique is not suitable for use because caretakers are unable to use it during pain-inducing procedures. \n To address this challenge, researchers at the University of British Columbia under the leadership of Dr. Liisa Holsti developed the Calmer device, a complex medical instrument that simulates Kangaroo Mother Care (KMC) to manage premature infants’ pain in the NICU. Clinical trials have found that the Calmer device provides the same level of pain management for premature infants as human contact using the KMC technique by replicating a heartbeat sound, using a heated and textured surface, and mimicking a breathing motion. Clinical trials have found that the Calmer device provides the same level of pain management for premature infants as another human touch strategy called facilitated tucking by replicating a heartbeat sound, using a skin-like surface, and mimicking a breathing motion. \n The current Calmer device is too expensive and energy-demanding for effective utilization in low and middle-income countries. Furthermore, the current Calmer device isn’t designed for dust protection and easy transport. Thus, our Integrative Design and Electrical subteams worked with Dr. Holsti to redesign the Calmer device for usage in these countries. \n Our device simulates a breathing motion by lifting an acrylic platform up to 0.5” with a camshaft. Metal rods that are affixed to the mobile platform assure that the platform ascends and descends smoothly. This design also incorporates additional features meant to increase the stability of the prototype and breathing motion. These include multiple PLA supports in the middle and the corners of the device to support the platforms, PLA camshaft supports with ball bearings to prevent the camshaft from bending, and a fixed acrylic platform between the moving platform and supports. The camshaft in our device is powered by a motor utilizing an external power source. The device also contains a speaker that plays the sound of a heartbeat, which can be adjusted for speed and volume by using dials. This component is also electronically powered.",
+            "images": [
+                [
+                    "calmer1",
+                    [
+                        "220px",
+                        "320px"
+                    ]
+                ],
+                [
+                    "calmer2",
+                    [
+                        "220px",
+                        "320px"
+                    ]
+                ]
+            ],
+            "isActive": false,
+            "collaborators": [
+                "bcchildrens"
+            ],
+            "year_completed": 2022
+        },
+        {
+            "id": "glasses",
+            "title": "Assistive Glasses",
+            "subteams": [
+                "integrative-design",
+                "software"
+            ],
+            "isActive": false,
+            "info": "This multi-team project seeks to build a data collection app that will ultimately serve a Ml model powering glasses for low vision patients that enables them to see through real time image detection. This is in collaboration with the Avarind Eye Care System in India that manufactures specialty eye care equipment. The team works directly with a Cornell professor and PhD student who act as a medium between EWH and the glasses company. ",
+            "info_long": "This multi-team project seeks to build a data collection app that will ultimately serve a Ml model powering glasses for low vision patients that enables them to see through real time image detection. This is in collaboration with the Avarind Eye Care System in India that manufactures specialty eye care equipment. The team works directly with a Cornell professor and PhD student who act as a medium between EWH and the glasses company. ",
+            "collaborators": [
+                "glasses",
+                "aecs"
+            ],
+            "year_completed": 2021
+        },
+        {
+            "id": "msh",
+            "title": "Management Sciences for Health Collaboration",
+            "subteams": [
+                "software"
+            ],
+            "info": "This newly formed subteam is developing an automated web-scraper to collect job and funding information from target sites such as ThinkWell, UNICEF, WHO, Bill and Melinda Gates Foundation, etc.",
+            "info_long": "Over the course of a year, one of two software subteams collaborated with Management Sciences for Health (MSH), a global, advisory non-profit organization that strengthens health systems. Specifically, they joined MSH under Dr. Christian Suharlim, a Senior Technical Advisor for Global Health Systems Innovation and the Director of Public Affairs for the Immunization Economics Community of Practice. \n During their internship with MSH, the team focused on building an automated opportunities dashboard that utilized web-scraping technologies to create a platform for health economists and immunization professionals to collaborate. This dashboard aims to consolidate job and funding opportunities from major ImmunizationEconomics.org partners and sponsors including but not limited to the Harvard T.H. Chan School of Public Health, Johns Hopkins, and the Bill and Melinda Gates Foundation. In addition, the team wrote and sought publication for a commentary centered around the global health labor force movement, especially within the era of COVID-19.",
+            "isActive": false,
+            "collaborators": [
+                "msh"
+            ],
+            "year_completed": 2021
+        },
+        {
             "id": "health-friend",
             "title": "Health Friend",
             "subteams": [
@@ -29,62 +122,6 @@
                 "barefootcollege"
             ],
             "year_completed": 2020
-        },
-        {
-            "id": "msh",
-            "title": "Management Sciences for Health Collaboration",
-            "subteams": [
-                "software"
-            ],
-            "info": "This newly formed subteam is developing an automated web-scraper to collect job and funding information from target sites such as ThinkWell, UNICEF, WHO, Bill and Melinda Gates Foundation, etc.",
-            "info_long": "Over the course of a year, one of two software subteams collaborated with Management Sciences for Health (MSH), a global, advisory non-profit organization that strengthens health systems. Specifically, they joined MSH under Dr. Christian Suharlim, a Senior Technical Advisor for Global Health Systems Innovation and the Director of Public Affairs for the Immunization Economics Community of Practice. \n During their internship with MSH, the team focused on building an automated opportunities dashboard that utilized web-scraping technologies to create a platform for health economists and immunization professionals to collaborate. This dashboard aims to consolidate job and funding opportunities from major ImmunizationEconomics.org partners and sponsors including but not limited to the Harvard T.H. Chan School of Public Health, Johns Hopkins, and the Bill and Melinda Gates Foundation. In addition, the team wrote and sought publication for a commentary centered around the global health labor force movement, especially within the era of COVID-19.",
-            "isActive": false,
-            "collaborators": [
-                "msh"
-            ],
-            "year_completed": 2021
-        },
-        {
-            "id": "calmer",
-            "title": "Calmer Project",
-            "subteams": [
-                "integrative-design",
-                "electrical"
-            ],
-            "info": "Our Integrative Design and Electrical teams are currently developing a device to aid pain management for infants in the NICU, working with Dr. Liisa Holsti at B.C. Children's Hospital. The teams are modifying Holsti’s existing Calmer design to optimize it for uptake in lower-and-middle-income countries.",
-            "info_long": "An ongoing challenge that the neonatal medical community faces is pain management for preterm infants in Neonatal Intensive Care Units (NICU). One common pain management method is the Kangaroo Mother Care (KMC) technique, which involves holding an infant in an upright position on the infant caretaker’s bare chest for long periods of time. However, the KMC technique is not suitable for use because caretakers are unable to use it during pain-inducing procedures. \n To address this challenge, researchers at the University of British Columbia under the leadership of Dr. Liisa Holsti developed the Calmer device, a complex medical instrument that simulates Kangaroo Mother Care (KMC) to manage premature infants’ pain in the NICU. Clinical trials have found that the Calmer device provides the same level of pain management for premature infants as human contact using the KMC technique by replicating a heartbeat sound, using a heated and textured surface, and mimicking a breathing motion. \n Lower-and-middle-income countries have the highest rates of preterm births, but the current Calmer device is too expensive and energy-demanding for effective utilization in these countries. Furthermore, the current Calmer device isn’t designed for dust protection and easy transport. Thus, our Integrative Design and Electrical subteams worked with Dr. Holsti to redesign the Calmer device for usage in these countries. \n In our initial prototyping iteration, we pursued two separate prototypes that utilize two different breathing motion methods: 1) Mechanical prototype - a vertical lift is generated against a platform by a camshaft that rotates rhythmically. 2) Mechanical/fluid hybrid prototype - a camshaft compresses a fluid-filled pouch to generate upwards lift against a platform in order to decrease the shear stress on the motor shaft. \n Separately, we formed an initial electrical design for wiring a speaker for the heartbeat sound with a motor to run the camshaft. At the end of the design iteration, we selected the mechanical solution due to better rigidity and fewer failure points. \n After that, we were able to redesign and fully assemble a working prototype of the Calmer device. Starting with a consolidation of our previous two designs, we settled on a new mechanical design which incorporated some elements of the fluid design. We were then able to fully design this new prototype in a CAD file, manufacture it, and conduct some brief testing. ",
-            "images": [
-                [
-                    "calmer1",
-                    [
-                        "300px",
-                        "174px"
-                    ]
-                ],
-                [
-                    "calmer2",
-                    [
-                        "300px",
-                        "174px"
-                    ]
-                ]
-            ],
-            "isActive": false,
-            "collaborators": [
-                "bcchildrens"
-            ]
-        },
-        {
-            "id": "invictus",
-            "title": "Invictus BCI Collaboration",
-            "subteams": [
-                "electrical"
-            ],
-            "info": "Our Electrical team is currently working with the startup Invictus BCI to improve the EMG armband of their prosthetic hand model. To do this, the team is developing a prototype that will interpret muscle signals at lower costs.",
-            "isActive": true,
-            "collaborators": [
-                "Management Sciences for Health Collaboration"
-            ]
         },
         {
             "id": "tvns",
@@ -125,20 +162,6 @@
             "year_completed": 2020
         },
         {
-            "id": "incinerator",
-            "title": "Incinerator",
-            "subteams": [
-                "integrative-design"
-            ],
-            "isActive": false,
-            "info": "The Integrative Design subteam partnered with a nonprofit in India called Barefoot College to develop a waste incinerator: an environmental alternative for women disposing of menstrual waste items. ",
-            "info_long": "The Integrative Design partnered with a nonprofit in India called Barefoot College to develop an environmental alternative to waste removal. The Incinerator iis a solution developed for Barefoot College in order to meet the needs of women in Rajasthan, India. Three solutions were first proposed in order to create a clean-energy and low-cost menstrual waste disposal system. The activated charcoal filter design focused on filtering out harmful toxins in the smoke produced while burning menstrual waste by adding the activated charcoal filter to a pre-existing mudka. The fresnel lens design aimed to incinerate the menstrual pads by using a fresnel lens that concentrated sunlight onto the pads in order to begin combustion. Lastly, the solar cooker design looked at once again harnessing the power of sunlight in order to then incinerate the pads.\n This design was not prototyped or tested due to time constraints and feasibility. After prototyping the activated charcoal design and testing it with the Wynd Air Quality Tracker it was found that the design did not seem effective in reducing the number of toxins being produced by the mudka. However, after testing the fresnel lens design in Florida it was found that this design allowed for simple combustion by having the Fresnel lens effectively concentrate sunlight to an area and begin combustion around the same time each day. Ultimately, the fresnel lens design was deemed the most successful and optimal design created.",
-            "collaborators": [
-                "barefootcollege"
-            ],
-            "year_completed": 2019
-        },
-        {
             "id": "rex",
             "title": "Rex",
             "subteams": [
@@ -149,6 +172,20 @@
             "info_long": "Rex is an app empowering patients and doctors with a simple solution for tracking long-term medical conditions. Patients utilize the app to record their symptoms as they are happening. Doctors then use this reliable information to aid in treatment and diagnosis. The app also lets patients create reminders for them to take their medication. \n The application features symptom tracking including fast symptom logging and the ability to review past symptom history. It also includes medication controls to easily organize medications by keeping track of them, customizing push notifications as reminders, and calendar views to access progress. Lastly, it features a user-focused interface with simple visualizations and controls, not requiring account registration. \n Our simple-to-use application encourages patients to be more proactive in logging their conditions and enables doctors to easily access their progress. The app was handed off to a doctor at Weill Cornell for testing.",
             "collaborators": [
                 "weillcornell"
+            ],
+            "year_completed": 2019
+        },
+        {
+            "id": "incinerator",
+            "title": "Incinerator",
+            "subteams": [
+                "integrative-design"
+            ],
+            "isActive": false,
+            "info": "The Integrative Design subteam partnered with a nonprofit in India called Barefoot College to develop a waste incinerator: an environmental alternative for women disposing of menstrual waste items. ",
+            "info_long": "The Integrative Design partnered with a nonprofit in India called Barefoot College to develop an environmental alternative to waste removal. The Incinerator iis a solution developed for Barefoot College in order to meet the needs of women in Rajasthan, India. Three solutions were first proposed in order to create a clean-energy and low-cost menstrual waste disposal system. The activated charcoal filter design focused on filtering out harmful toxins in the smoke produced while burning menstrual waste by adding the activated charcoal filter to a pre-existing mudka. The fresnel lens design aimed to incinerate the menstrual pads by using a fresnel lens that concentrated sunlight onto the pads in order to begin combustion. Lastly, the solar cooker design looked at once again harnessing the power of sunlight in order to then incinerate the pads.\n This design was not prototyped or tested due to time constraints and feasibility. After prototyping the activated charcoal design and testing it with the Wynd Air Quality Tracker it was found that the design did not seem effective in reducing the number of toxins being produced by the mudka. However, after testing the fresnel lens design in Florida it was found that this design allowed for simple combustion by having the Fresnel lens effectively concentrate sunlight to an area and begin combustion around the same time each day. Ultimately, the fresnel lens design was deemed the most successful and optimal design created.",
+            "collaborators": [
+                "barefootcollege"
             ],
             "year_completed": 2019
         },
@@ -179,6 +216,41 @@
                 "sawa"
             ],
             "year_completed": 2018
+        },
+        {
+            "id": "jaundice",
+            "title": "Infant Jaundice Therapy",
+            "subteams": [
+                "integrative-design"
+            ],
+            "isActive": false,
+            "info": "The team designed a low-cost, lightweight device to treat Jaundice in newborn babies through phototherapy.",
+            "info_long": "Approximately 50 percent of term newborns and 80 percent of preterm newborns develop jaundice, yellow discoloration of a baby's skin and eyes. Approximately 5 to 10 percent of infant mortality in developing countries is caused by jaundice complications. Jaundice is caused by elevated levels of bilirubin, and 6 million babies a year are at risk for cerebral palsy, blindness, deafness, cognitive damage, and death if left untreated. The cure for jaundice is phototherapy or blue light. However, current solutions, including traditional halogen lamps and modern LED devices, are often not portable and place multiple babies in one device, which  increases the risks of spreading infection and inconsistent treatment.\n The final design by Cornell EWH drew inspiration from collapsible tents and foldable foam boxes and prioritized portability, longevity, electronic embeddability, low cost, ease of use, and feasibility. After consulting with Dr. Srisatish Devapatla at Cayuga Medical Center, the team finalized a lightweight, foldable design with a 180 degree roll top. The device was embedded with blue LED lights in the top struts and bottom cushion and made of waterproof fabric and bean bags. Preliminary performance was collected by the team on the device’s effectiveness.",
+            "collaborators": [
+                "cayuga"
+            ],
+            "year_completed": 2017
+        },
+        {
+            "id": "mycotoxins",
+            "title": "Mycotoxin Filter Table",
+            "subteams": [
+                "integrative-design"
+            ],
+            "isActive": false,
+            "info": "Mycotoxins are metabolites of fungi that contaminate crops, especially in resource-constrained settings. This project developed a low-cost gravity table that small-holder farmers can use to sort and filter mycotoxin-infested crops to produce safe, healthy foods.",
+            "info_long": "Mycotoxins, notably aflatoxin and fumonisin, are metabolites of fungi that contaminate staple crops predominantly in resource-limited settings. Due to their immunosuppressive, carcinogenic, and toxic effects, mycotoxins pose a serious threat to human health across the globe. The populations most susceptible to mycotoxin exposure are those living in rural, resource-limited areas, where subsistence farming is common and food insecurity is a pressing issue.\n Cornell Engineering World Health developed a low-cost, effective solution that small-holder farmers can use to sort their crops and provide safe, healthy food for themselves and their communities. This device was a small-scale gravity table constructed with low-cost, durable, and accessible materials. The table was predominantly made of wood, with a mesh deck, a fan to provide airflow, and a vibrating motor. It was designed to be largely portable, with multiple detachable parts that enabled easy transport. The gravity table sorted out mycotoxin-infected corn kernels from healthy kernels on the basis of density differences. Infected kernels are less dense and thus when fed onto a dual-angled vibrating mesh deck, the fan levitates the contaminated kernels into a separate bin from the healthy ones. This device serves as a low resource option for sorting toxins in corn.",
+            "images": [
+                [
+                    "mycotox",
+                    [
+                        "151px",
+                        "300px"
+                    ]
+                ]
+            ],
+            "collaborators": [],
+            "year_completed": 2017
         },
         {
             "id": "water-monitor",
@@ -245,41 +317,6 @@
             "year_completed": 2015
         },
         {
-            "id": "jaundice",
-            "title": "Infant Jaundice Therapy",
-            "subteams": [
-                "integrative-design"
-            ],
-            "isActive": false,
-            "info": "The team designed a low-cost, lightweight device to treat Jaundice in newborn babies through phototherapy.",
-            "info_long": "Approximately 50 percent of term newborns and 80 percent of preterm newborns develop jaundice, yellow discoloration of a baby's skin and eyes. Approximately 5 to 10 percent of infant mortality in developing countries is caused by jaundice complications. Jaundice is caused by elevated levels of bilirubin, and 6 million babies a year are at risk for cerebral palsy, blindness, deafness, cognitive damage, and death if left untreated. The cure for jaundice is phototherapy or blue light. However, current solutions, including traditional halogen lamps and modern LED devices, are often not portable and place multiple babies in one device, which  increases the risks of spreading infection and inconsistent treatment.\n The final design by Cornell EWH drew inspiration from collapsible tents and foldable foam boxes and prioritized portability, longevity, electronic embeddability, low cost, ease of use, and feasibility. After consulting with Dr. Srisatish Devapatla at Cayuga Medical Center, the team finalized a lightweight, foldable design with a 180 degree roll top. The device was embedded with blue LED lights in the top struts and bottom cushion and made of waterproof fabric and bean bags. Preliminary performance was collected by the team on the device’s effectiveness.",
-            "collaborators": [
-                "cayuga"
-            ],
-            "year_completed": 2017
-        },
-        {
-            "id": "mycotoxins",
-            "title": "Mycotoxin Filter Table",
-            "subteams": [
-                "integrative-design"
-            ],
-            "isActive": false,
-            "info": "Mycotoxins are metabolites of fungi that contaminate crops, especially in resource-constrained settings. This project developed a low-cost gravity table that small-holder farmers can use to sort and filter mycotoxin-infested crops to produce safe, healthy foods.",
-            "info_long": "Mycotoxins, notably aflatoxin and fumonisin, are metabolites of fungi that contaminate staple crops predominantly in resource-limited settings. Due to their immunosuppressive, carcinogenic, and toxic effects, mycotoxins pose a serious threat to human health across the globe. The populations most susceptible to mycotoxin exposure are those living in rural, resource-limited areas, where subsistence farming is common and food insecurity is a pressing issue.\n Cornell Engineering World Health developed a low-cost, effective solution that small-holder farmers can use to sort their crops and provide safe, healthy food for themselves and their communities. This device was a small-scale gravity table constructed with low-cost, durable, and accessible materials. The table was predominantly made of wood, with a mesh deck, a fan to provide airflow, and a vibrating motor. It was designed to be largely portable, with multiple detachable parts that enabled easy transport. The gravity table sorted out mycotoxin-infected corn kernels from healthy kernels on the basis of density differences. Infected kernels are less dense and thus when fed onto a dual-angled vibrating mesh deck, the fan levitates the contaminated kernels into a separate bin from the healthy ones. This device serves as a low resource option for sorting toxins in corn.",
-            "images": [
-                [
-                    "mycotox",
-                    [
-                        "151px",
-                        "300px"
-                    ]
-                ]
-            ],
-            "collaborators": [],
-            "year_completed": 2017
-        },
-        {
             "id": "autologous-transfusion",
             "title": "Autologous Blood Transfusion System",
             "subteams": [
@@ -290,30 +327,6 @@
             "info_long": "Every year, millions of women world-wide suffer from excessive blood loss in cases of ruptured ectopic pregnancies. For instance, hemorrhaging is the leading cause of maternal mortality in Sub-Saharan Africa, with 87% due to ectopic pregnancy ruptures. Women can often lose up to half their blood volume (developing acute anemia) and are usually in desperate need of transfusion. However, in developing nations, there are often insufficient supplies of donor blood due to high frequency of diseases such as HIV/AIDS. \n Design Innovations for Infants and Mothers Everywhere (DIIME) has attempted to address this problem by developing a device, known as the Hemafuse, which transfers and filters blood using a manual hand-pump method, and then re-transfuses the clean blood into patients. Although this device is simple, clean, and reusable, it fails to make the process less labor intensive, nor does it reduce crowding and chaos in the surgical area. \n The Autologous Transfusion System designed by EWH Cornell sought to create a simple handheld, reusable auto-transfusion system that addressed several shortcomings of the current Hemafuse device. The proposed transfusion system would be inserted into the patient’s abdomen during surgery and sucked out by a foot pump powered by a hand crank. The foot pump draws the blood through a sterile IV bag with anticoagulant tubing, and anticoagulant is added  to remove and prevent clots, ensuring safe blood storage before transfusion. This blood transfusion process not only stores blood in a sterile environment with anticoagulants but also returns the blood to a patient in a closed loop system. This system, therefore, reduced the risk of transmitting airborne infections and transfusing clots into the patient's body. Moreover, the transfusion system was designed to be a distance away from the operating table to clear surgical space, so the nurse isn’t clumsily extracting and pumping blood out of wounds while near the physicians who are attempting to operate. The designs were provided for resource limited clinics in sub-Saharan Africa as an option to achieve fewer patient complications, lower procedure costs, and decreased mortality rates related to pregnancy.",
             "collaborators": [],
             "year_completed": 2015
-        },
-        {
-            "id": "glasses",
-            "title": "Assistive Glasses",
-            "subteams": [
-                "integrative-design",
-                "software"
-            ],
-            "isActive": true,
-            "info": "This multi-team project seeks to build a data collection app that will ultimately serve a Ml model powering glasses for low vision patients that enables them to see through real time image detection. This is in collaboration with the Avarind Eye Care System in India that manufactures specialty eye care equipment. The team works directly with a Cornell professor and PhD student who act as a medium between EWH and the glasses company. ",
-            "collaborators": [
-                "glasses",
-                "aecs"
-            ]
-        },
-        {
-            "id": "first-opinion",
-            "title": "First Opinion",
-            "subteams": [
-                "business"
-            ],
-            "isActive": true,
-            "info": "This project is a collaboration with an early phase start-up called First Opinion that seeks to provide a low-cost resource for accurate medical information in India. This is the business team’s first official collaboration in a while, featuring marketing, biz dev, and web dev services. ",
-            "collaborators": []
         }
     ]
 }
