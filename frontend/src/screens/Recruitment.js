@@ -41,9 +41,12 @@ export default class Recruitment extends React.Component {
             <a href="https://www.engineering.cornell.edu/cornell-engineering-student-project-teams-join-a-team"> here </a>
             for more information. All students, regardless of graduation year, will be recruited according to the First-Year recruitment timeline.
 
+
+            Sign up for our recruitment listserv <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5PnHEoXjibb_OkUywHxrli5kiL23cG6RsuHtJc3D4rzJ8aQ/viewform"> here </a>!
+
+
             <div className="recruitment-container">
               <div className="contact-title">Key Dates </div>
-
               <ul>
                 <li>
                   Thursday, 9/1: Project Team Fest |
