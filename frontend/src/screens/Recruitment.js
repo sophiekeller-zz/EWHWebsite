@@ -54,11 +54,11 @@ export default class Recruitment extends React.Component {
                 </li>
                 <li>
                   Tuesday, 9/6: Info Session 1 |
-                  Location TBD, 5-6 PM
+                  <a href="https://cornell.zoom.us/j/95138691967?pwd=aUdhanBHMEdDZVdnR0tyaE9YSnVZdz09"> Zoom</a>, 5-6 PM
                 </li>
                 <li>
                   Thursday, 9/8: Info Session 2 |
-                  Location TBD, 5-6 PM
+                  L<a href="https://cornell.zoom.us/j/95138691967?pwd=aUdhanBHMEdDZVdnR0tyaE9YSnVZdz09"> Zoom</a>, 5-6 PM
                 </li>
                 <li>Thursday, 9/29: Applications Due |
                   Freshmen + Upperclassmen, 11:59 PM
